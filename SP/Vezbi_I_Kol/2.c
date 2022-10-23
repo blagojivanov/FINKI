@@ -14,12 +14,12 @@ int main() {
     if (n>9) {
         n-=1;
         for (int i = n; i > 0; i--) {
-            int iorg = i;
+            int icpy = i;
             int obr = 0, counter = 0;
-            while (iorg) {
-                obr += iorg % 10;
-                iorg /= 10;
-                if (iorg) obr*=10;
+            while (icpy) {
+                obr += icpy % 10;
+                icpy /= 10;
+                if (icpy) obr*=10;
                 counter++;
             }
             if (obr % counter == 0) {
