@@ -11,14 +11,14 @@ int main() {
     scanf("%d%d", &m, &n);
     for (int i = m; i<=n; i++)
     {
-        int iorg=i;
-        while (iorg) {
-            if (iorg % 10 % 2 != 0) {
+        int icpy=i;
+        while (icpy) {
+            if (icpy % 10 % 2 != 0) {
                 break;
             }
-            iorg/=10;
+            icpy/=10;
         }
-        if(iorg==0)
+        if(icpy==0)
         {
             printf("%d", i);
             return  0;
