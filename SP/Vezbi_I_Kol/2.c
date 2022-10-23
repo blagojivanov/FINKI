@@ -31,3 +31,14 @@ int main() {
     printf("Brojot ne e validen");
     return 0;
 }
+
+/*
+ * TEST SLUCAI (Input - Output)
+ * 5 - Brojot ne e validen
+ * 50 - 49
+ * 100 - 89
+ * 17 - 9
+ * -5 - Brojot ne e validen
+ * 990 - 987
+ * 10 - 9
+ * */
