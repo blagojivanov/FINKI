@@ -28,3 +28,13 @@ int main() {
     printf("NE");
     return 0;
 }
+
+/*
+ * TEST SLUCAI (Input - Output)
+ * 99 500 - 200
+ * 10 19 - NE
+ * 1230 25000 - 2000
+ * 1 2 - 2
+ * 1000 - 5000 - 2000
+ * 99 199 - NE
+ * */
