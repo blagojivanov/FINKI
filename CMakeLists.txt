@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.23)
+project(FINKI C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(1 SP/Vezbi_I_Kol/1.c)
+add_executable(2 SP/Vezbi_I_Kol/2.c)
+add_executable(3 SP/Vezbi_I_Kol/3.c)
+add_executable(4 SP/Vezbi_I_Kol/4.c)
+add_executable(5 SP/Vezbi_I_Kol/5.c)
+add_executable(6 SP/Vezbi_I_Kol/6.c)
+add_executable(7 SP/Vezbi_I_Kol/7.c)
+add_executable(8 SP/Vezbi_I_Kol/8.c)
+add_executable(9 SP/Vezbi_I_Kol/9.c)
+add_executable(10 SP/Vezbi_I_Kol/10.c)
+add_executable(11 SP/Vezbi_I_Kol/11.c)
