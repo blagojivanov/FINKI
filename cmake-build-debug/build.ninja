@@ -381,6 +381,378 @@ build 11: C_EXECUTABLE_LINKER__11_Debug CMakeFiles/11.dir/SP/Vezbi_I_Kol/11.c.o
   TARGET_FILE = 11
   TARGET_PDB = 11.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lab1_1
+
+
+#############################################
+# Order-only phony target for lab1_1
+
+build cmake_object_order_depends_target_lab1_1: phony || CMakeFiles/lab1_1.dir
+
+build CMakeFiles/lab1_1.dir/SP/Lab/1/lab1_1.c.o: C_COMPILER__lab1_1_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/1/lab1_1.c || cmake_object_order_depends_target_lab1_1
+  DEP_FILE = CMakeFiles/lab1_1.dir/SP/Lab/1/lab1_1.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab1_1.dir/SP/Lab/1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab1_1
+
+
+#############################################
+# Link the executable lab1_1
+
+build lab1_1: C_EXECUTABLE_LINKER__lab1_1_Debug CMakeFiles/lab1_1.dir/SP/Lab/1/lab1_1.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab1_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab1_1
+  TARGET_PDB = lab1_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab1_2
+
+
+#############################################
+# Order-only phony target for lab1_2
+
+build cmake_object_order_depends_target_lab1_2: phony || CMakeFiles/lab1_2.dir
+
+build CMakeFiles/lab1_2.dir/SP/Lab/1/lab1_2.c.o: C_COMPILER__lab1_2_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/1/lab1_2.c || cmake_object_order_depends_target_lab1_2
+  DEP_FILE = CMakeFiles/lab1_2.dir/SP/Lab/1/lab1_2.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab1_2.dir/SP/Lab/1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab1_2
+
+
+#############################################
+# Link the executable lab1_2
+
+build lab1_2: C_EXECUTABLE_LINKER__lab1_2_Debug CMakeFiles/lab1_2.dir/SP/Lab/1/lab1_2.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab1_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab1_2
+  TARGET_PDB = lab1_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab1_3
+
+
+#############################################
+# Order-only phony target for lab1_3
+
+build cmake_object_order_depends_target_lab1_3: phony || CMakeFiles/lab1_3.dir
+
+build CMakeFiles/lab1_3.dir/SP/Lab/1/lab1_3.c.o: C_COMPILER__lab1_3_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/1/lab1_3.c || cmake_object_order_depends_target_lab1_3
+  DEP_FILE = CMakeFiles/lab1_3.dir/SP/Lab/1/lab1_3.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab1_3.dir/SP/Lab/1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab1_3
+
+
+#############################################
+# Link the executable lab1_3
+
+build lab1_3: C_EXECUTABLE_LINKER__lab1_3_Debug CMakeFiles/lab1_3.dir/SP/Lab/1/lab1_3.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab1_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab1_3
+  TARGET_PDB = lab1_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab2_1
+
+
+#############################################
+# Order-only phony target for lab2_1
+
+build cmake_object_order_depends_target_lab2_1: phony || CMakeFiles/lab2_1.dir
+
+build CMakeFiles/lab2_1.dir/SP/Lab/2/lab2_1.c.o: C_COMPILER__lab2_1_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/2/lab2_1.c || cmake_object_order_depends_target_lab2_1
+  DEP_FILE = CMakeFiles/lab2_1.dir/SP/Lab/2/lab2_1.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab2_1.dir/SP/Lab/2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab2_1
+
+
+#############################################
+# Link the executable lab2_1
+
+build lab2_1: C_EXECUTABLE_LINKER__lab2_1_Debug CMakeFiles/lab2_1.dir/SP/Lab/2/lab2_1.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab2_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab2_1
+  TARGET_PDB = lab2_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab2_2
+
+
+#############################################
+# Order-only phony target for lab2_2
+
+build cmake_object_order_depends_target_lab2_2: phony || CMakeFiles/lab2_2.dir
+
+build CMakeFiles/lab2_2.dir/SP/Lab/2/lab2_2.c.o: C_COMPILER__lab2_2_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/2/lab2_2.c || cmake_object_order_depends_target_lab2_2
+  DEP_FILE = CMakeFiles/lab2_2.dir/SP/Lab/2/lab2_2.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab2_2.dir/SP/Lab/2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab2_2
+
+
+#############################################
+# Link the executable lab2_2
+
+build lab2_2: C_EXECUTABLE_LINKER__lab2_2_Debug CMakeFiles/lab2_2.dir/SP/Lab/2/lab2_2.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab2_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab2_2
+  TARGET_PDB = lab2_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab2_3
+
+
+#############################################
+# Order-only phony target for lab2_3
+
+build cmake_object_order_depends_target_lab2_3: phony || CMakeFiles/lab2_3.dir
+
+build CMakeFiles/lab2_3.dir/SP/Lab/2/lab2_3.c.o: C_COMPILER__lab2_3_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/2/lab2_3.c || cmake_object_order_depends_target_lab2_3
+  DEP_FILE = CMakeFiles/lab2_3.dir/SP/Lab/2/lab2_3.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab2_3.dir/SP/Lab/2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab2_3
+
+
+#############################################
+# Link the executable lab2_3
+
+build lab2_3: C_EXECUTABLE_LINKER__lab2_3_Debug CMakeFiles/lab2_3.dir/SP/Lab/2/lab2_3.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab2_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab2_3
+  TARGET_PDB = lab2_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab3_1
+
+
+#############################################
+# Order-only phony target for lab3_1
+
+build cmake_object_order_depends_target_lab3_1: phony || CMakeFiles/lab3_1.dir
+
+build CMakeFiles/lab3_1.dir/SP/Lab/3/lab3_1.c.o: C_COMPILER__lab3_1_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/3/lab3_1.c || cmake_object_order_depends_target_lab3_1
+  DEP_FILE = CMakeFiles/lab3_1.dir/SP/Lab/3/lab3_1.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab3_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab3_1.dir/SP/Lab/3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab3_1
+
+
+#############################################
+# Link the executable lab3_1
+
+build lab3_1: C_EXECUTABLE_LINKER__lab3_1_Debug CMakeFiles/lab3_1.dir/SP/Lab/3/lab3_1.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab3_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab3_1
+  TARGET_PDB = lab3_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab3_2
+
+
+#############################################
+# Order-only phony target for lab3_2
+
+build cmake_object_order_depends_target_lab3_2: phony || CMakeFiles/lab3_2.dir
+
+build CMakeFiles/lab3_2.dir/SP/Lab/3/lab3_2.c.o: C_COMPILER__lab3_2_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/3/lab3_2.c || cmake_object_order_depends_target_lab3_2
+  DEP_FILE = CMakeFiles/lab3_2.dir/SP/Lab/3/lab3_2.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab3_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab3_2.dir/SP/Lab/3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab3_2
+
+
+#############################################
+# Link the executable lab3_2
+
+build lab3_2: C_EXECUTABLE_LINKER__lab3_2_Debug CMakeFiles/lab3_2.dir/SP/Lab/3/lab3_2.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab3_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab3_2
+  TARGET_PDB = lab3_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab3_3
+
+
+#############################################
+# Order-only phony target for lab3_3
+
+build cmake_object_order_depends_target_lab3_3: phony || CMakeFiles/lab3_3.dir
+
+build CMakeFiles/lab3_3.dir/SP/Lab/3/lab3_3.c.o: C_COMPILER__lab3_3_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/3/lab3_3.c || cmake_object_order_depends_target_lab3_3
+  DEP_FILE = CMakeFiles/lab3_3.dir/SP/Lab/3/lab3_3.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab3_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab3_3.dir/SP/Lab/3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab3_3
+
+
+#############################################
+# Link the executable lab3_3
+
+build lab3_3: C_EXECUTABLE_LINKER__lab3_3_Debug CMakeFiles/lab3_3.dir/SP/Lab/3/lab3_3.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab3_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab3_3
+  TARGET_PDB = lab3_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab4_1
+
+
+#############################################
+# Order-only phony target for lab4_1
+
+build cmake_object_order_depends_target_lab4_1: phony || CMakeFiles/lab4_1.dir
+
+build CMakeFiles/lab4_1.dir/SP/Lab/4/lab4_1.c.o: C_COMPILER__lab4_1_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/4/lab4_1.c || cmake_object_order_depends_target_lab4_1
+  DEP_FILE = CMakeFiles/lab4_1.dir/SP/Lab/4/lab4_1.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab4_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab4_1.dir/SP/Lab/4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab4_1
+
+
+#############################################
+# Link the executable lab4_1
+
+build lab4_1: C_EXECUTABLE_LINKER__lab4_1_Debug CMakeFiles/lab4_1.dir/SP/Lab/4/lab4_1.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab4_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab4_1
+  TARGET_PDB = lab4_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab4_2
+
+
+#############################################
+# Order-only phony target for lab4_2
+
+build cmake_object_order_depends_target_lab4_2: phony || CMakeFiles/lab4_2.dir
+
+build CMakeFiles/lab4_2.dir/SP/Lab/4/lab4_2.c.o: C_COMPILER__lab4_2_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/4/lab4_2.c || cmake_object_order_depends_target_lab4_2
+  DEP_FILE = CMakeFiles/lab4_2.dir/SP/Lab/4/lab4_2.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab4_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab4_2.dir/SP/Lab/4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab4_2
+
+
+#############################################
+# Link the executable lab4_2
+
+build lab4_2: C_EXECUTABLE_LINKER__lab4_2_Debug CMakeFiles/lab4_2.dir/SP/Lab/4/lab4_2.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab4_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab4_2
+  TARGET_PDB = lab4_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab4_3
+
+
+#############################################
+# Order-only phony target for lab4_3
+
+build cmake_object_order_depends_target_lab4_3: phony || CMakeFiles/lab4_3.dir
+
+build CMakeFiles/lab4_3.dir/SP/Lab/4/lab4_3.c.o: C_COMPILER__lab4_3_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Lab/4/lab4_3.c || cmake_object_order_depends_target_lab4_3
+  DEP_FILE = CMakeFiles/lab4_3.dir/SP/Lab/4/lab4_3.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/lab4_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab4_3.dir/SP/Lab/4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab4_3
+
+
+#############################################
+# Link the executable lab4_3
+
+build lab4_3: C_EXECUTABLE_LINKER__lab4_3_Debug CMakeFiles/lab4_3.dir/SP/Lab/4/lab4_3.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab4_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab4_3
+  TARGET_PDB = lab4_3.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -416,7 +788,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug
 
-build all: phony 1 2 3 4 5 6 7 8 9 10 11
+build all: phony 1 2 3 4 5 6 7 8 9 10 11 lab1_1 lab1_2 lab1_3 lab2_1 lab2_2 lab2_3 lab3_1 lab3_2 lab3_3 lab4_1 lab4_2 lab4_3
 
 # =============================================================================
 # Built-in targets

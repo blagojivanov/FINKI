@@ -9,5 +9,17 @@
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/9.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/10.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/11.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab1_1.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab1_2.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab1_3.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab2_1.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab2_2.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab2_3.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab3_1.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab3_2.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab3_3.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab4_1.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab4_2.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab4_3.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
