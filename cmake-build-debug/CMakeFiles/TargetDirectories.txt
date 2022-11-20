@@ -11,6 +11,8 @@
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/11.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/kol1_1.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/kol1_2.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/kol1_3.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/kol1_4.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab1_1.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab1_2.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab1_3.dir
