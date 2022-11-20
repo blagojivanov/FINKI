@@ -26,5 +26,6 @@ add_executable(lab3_3 SP/Lab/3/lab3_3.c)
 add_executable(lab4_1 SP/Lab/4/lab4_1.c)
 add_executable(lab4_2 SP/Lab/4/lab4_2.c)
 add_executable(lab4_3 SP/Lab/4/lab4_3.c)
+add_executable(lab4_4 SP/Lab/4/lab4_4.c)
 
 

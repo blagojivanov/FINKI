@@ -21,5 +21,6 @@
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab4_1.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab4_2.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab4_3.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/lab4_4.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
