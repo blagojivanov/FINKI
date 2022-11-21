@@ -9,6 +9,7 @@
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/9.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/10.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/11.dir
+/home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/12.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/kol1_1.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/kol1_2.dir
 /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug/CMakeFiles/kol1_3.dir
