@@ -413,6 +413,99 @@ build 12: C_EXECUTABLE_LINKER__12_Debug CMakeFiles/12.dir/SP/Vezbi_I_Kol/12.c.o
   TARGET_PDB = 12.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 13
+
+
+#############################################
+# Order-only phony target for 13
+
+build cmake_object_order_depends_target_13: phony || CMakeFiles/13.dir
+
+build CMakeFiles/13.dir/SP/Vezbi_I_Kol/13.c.o: C_COMPILER__13_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Vezbi_I_Kol/13.c || cmake_object_order_depends_target_13
+  DEP_FILE = CMakeFiles/13.dir/SP/Vezbi_I_Kol/13.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/13.dir
+  OBJECT_FILE_DIR = CMakeFiles/13.dir/SP/Vezbi_I_Kol
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 13
+
+
+#############################################
+# Link the executable 13
+
+build 13: C_EXECUTABLE_LINKER__13_Debug CMakeFiles/13.dir/SP/Vezbi_I_Kol/13.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/13.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 13
+  TARGET_PDB = 13.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 14
+
+
+#############################################
+# Order-only phony target for 14
+
+build cmake_object_order_depends_target_14: phony || CMakeFiles/14.dir
+
+build CMakeFiles/14.dir/SP/Vezbi_I_Kol/14.c.o: C_COMPILER__14_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Vezbi_I_Kol/14.c || cmake_object_order_depends_target_14
+  DEP_FILE = CMakeFiles/14.dir/SP/Vezbi_I_Kol/14.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/14.dir
+  OBJECT_FILE_DIR = CMakeFiles/14.dir/SP/Vezbi_I_Kol
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 14
+
+
+#############################################
+# Link the executable 14
+
+build 14: C_EXECUTABLE_LINKER__14_Debug CMakeFiles/14.dir/SP/Vezbi_I_Kol/14.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/14.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 14
+  TARGET_PDB = 14.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 15
+
+
+#############################################
+# Order-only phony target for 15
+
+build cmake_object_order_depends_target_15: phony || CMakeFiles/15.dir
+
+build CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.o: C_COMPILER__15_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Vezbi_I_Kol/15.c || cmake_object_order_depends_target_15
+  DEP_FILE = CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/15.dir
+  OBJECT_FILE_DIR = CMakeFiles/15.dir/SP/Vezbi_I_Kol
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 15
+
+
+#############################################
+# Link the executable 15
+
+build 15: C_EXECUTABLE_LINKER__15_Debug CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/15.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 15
+  TARGET_PDB = 15.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target kol1_1
 
 
@@ -974,7 +1067,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug
 
-build all: phony 1 2 3 4 5 6 7 8 9 10 11 12 kol1_1 kol1_2 kol1_3 kol1_4 lab1_1 lab1_2 lab1_3 lab2_1 lab2_2 lab2_3 lab3_1 lab3_2 lab3_3 lab4_1 lab4_2 lab4_3 lab4_4
+build all: phony 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 kol1_1 kol1_2 kol1_3 kol1_4 lab1_1 lab1_2 lab1_3 lab2_1 lab2_2 lab2_3 lab3_1 lab3_2 lab3_3 lab4_1 lab4_2 lab4_3 lab4_4
 
 # =============================================================================
 # Built-in targets
