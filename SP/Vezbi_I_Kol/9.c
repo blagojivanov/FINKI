@@ -12,9 +12,8 @@ int main() {
     while (1)
     {
         char spacediscard;
-        scanf("%c", &c); //A = 10 B = 11 C = 12 D = 13 E = 14 F = 15
-        scanf("%c", &spacediscard);
-        //printf("Space discard");
+        c = getchar(); //A = 10 B = 11 C = 12 D = 13 E = 14 F = 15
+
         if (c == '.')
         {
             break;
