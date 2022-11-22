@@ -630,35 +630,35 @@ build kol1_4: C_EXECUTABLE_LINKER__kol1_4_Debug CMakeFiles/kol1_4.dir/SP/Vezbi_I
   TARGET_PDB = kol1_4.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target additional1_1
+# Object build statements for EXECUTABLE target additional1_2
 
 
 #############################################
-# Order-only phony target for additional1_1
+# Order-only phony target for additional1_2
 
-build cmake_object_order_depends_target_additional1_1: phony || CMakeFiles/additional1_1.dir
+build cmake_object_order_depends_target_additional1_2: phony || CMakeFiles/additional1_2.dir
 
-build CMakeFiles/additional1_1.dir/SP/Vezbi_I_Kol/additional1_1.c.o: C_COMPILER__additional1_1_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Vezbi_I_Kol/additional1_1.c || cmake_object_order_depends_target_additional1_1
-  DEP_FILE = CMakeFiles/additional1_1.dir/SP/Vezbi_I_Kol/additional1_1.c.o.d
+build CMakeFiles/additional1_2.dir/SP/Vezbi_I_Kol/additional1_2.c.o: C_COMPILER__additional1_2_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Vezbi_I_Kol/additional1_2.c || cmake_object_order_depends_target_additional1_2
+  DEP_FILE = CMakeFiles/additional1_2.dir/SP/Vezbi_I_Kol/additional1_2.c.o.d
   FLAGS = -g -std=gnu11
-  OBJECT_DIR = CMakeFiles/additional1_1.dir
-  OBJECT_FILE_DIR = CMakeFiles/additional1_1.dir/SP/Vezbi_I_Kol
+  OBJECT_DIR = CMakeFiles/additional1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/additional1_2.dir/SP/Vezbi_I_Kol
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target additional1_1
+# Link build statements for EXECUTABLE target additional1_2
 
 
 #############################################
-# Link the executable additional1_1
+# Link the executable additional1_2
 
-build additional1_1: C_EXECUTABLE_LINKER__additional1_1_Debug CMakeFiles/additional1_1.dir/SP/Vezbi_I_Kol/additional1_1.c.o
+build additional1_2: C_EXECUTABLE_LINKER__additional1_2_Debug CMakeFiles/additional1_2.dir/SP/Vezbi_I_Kol/additional1_2.c.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/additional1_1.dir
+  OBJECT_DIR = CMakeFiles/additional1_2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = additional1_1
-  TARGET_PDB = additional1_1.dbg
+  TARGET_FILE = additional1_2
+  TARGET_PDB = additional1_2.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target lab1_1
@@ -1098,7 +1098,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug
 
-build all: phony 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 kol1_1 kol1_2 kol1_3 kol1_4 additional1_1 lab1_1 lab1_2 lab1_3 lab2_1 lab2_2 lab2_3 lab3_1 lab3_2 lab3_3 lab4_1 lab4_2 lab4_3 lab4_4
+build all: phony 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 kol1_1 kol1_2 kol1_3 kol1_4 additional1_2 lab1_1 lab1_2 lab1_3 lab2_1 lab2_2 lab2_3 lab3_1 lab3_2 lab3_3 lab4_1 lab4_2 lab4_3 lab4_4
 
 # =============================================================================
 # Built-in targets
