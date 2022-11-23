@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main()
 {
-    printf("Hello World");
+    double x = 5.0;
+    printf("%f", ceil(x));
     return 0;
 }
