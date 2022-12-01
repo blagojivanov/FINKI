@@ -506,6 +506,69 @@ build 15: C_EXECUTABLE_LINKER__15_Debug CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.o
   TARGET_PDB = 15.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 2-6
+
+
+#############################################
+# Order-only phony target for 2-6
+
+build cmake_object_order_depends_target_2-6: phony || CMakeFiles/2-6.dir
+
+build CMakeFiles/2-6.dir/SP/Vezbi_II_Kol/2-6.c.o: C_COMPILER__2-6_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Vezbi_II_Kol/2-6.c || cmake_object_order_depends_target_2-6
+  DEP_FILE = CMakeFiles/2-6.dir/SP/Vezbi_II_Kol/2-6.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-6.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-6.dir/SP/Vezbi_II_Kol
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-6
+
+
+#############################################
+# Link the executable 2-6
+
+build 2-6: C_EXECUTABLE_LINKER__2-6_Debug CMakeFiles/2-6.dir/SP/Vezbi_II_Kol/2-6.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/2-6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2-6
+  TARGET_PDB = 2-6.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-7
+
+
+#############################################
+# Order-only phony target for 2-7
+
+build cmake_object_order_depends_target_2-7: phony || CMakeFiles/2-7.dir
+
+build CMakeFiles/2-7.dir/SP/Vezbi_II_Kol/2-7.c.o: C_COMPILER__2-7_Debug /home/user/CLionProjects/STRVez/FINKI/SP/Vezbi_II_Kol/2-7.c || cmake_object_order_depends_target_2-7
+  DEP_FILE = CMakeFiles/2-7.dir/SP/Vezbi_II_Kol/2-7.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-7.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-7.dir/SP/Vezbi_II_Kol
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-7
+
+
+#############################################
+# Link the executable 2-7
+
+build 2-7: C_EXECUTABLE_LINKER__2-7_Debug CMakeFiles/2-7.dir/SP/Vezbi_II_Kol/2-7.c.o
+  FLAGS = -g
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = CMakeFiles/2-7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2-7
+  TARGET_PDB = 2-7.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target kol1_1
 
 
@@ -1253,7 +1316,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug
 
-build all: phony 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 kol1_1 kol1_2 kol1_3 kol1_4 additional1_2 additional1_1 additional1_3 additional1_4 additional1_5 additional1_6 lab1_1 lab1_2 lab1_3 lab2_1 lab2_2 lab2_3 lab3_1 lab3_2 lab3_3 lab4_1 lab4_2 lab4_3 lab4_4
+build all: phony 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 2-6 2-7 kol1_1 kol1_2 kol1_3 kol1_4 additional1_2 additional1_1 additional1_3 additional1_4 additional1_5 additional1_6 lab1_1 lab1_2 lab1_3 lab2_1 lab2_2 lab2_3 lab3_1 lab3_2 lab3_3 lab4_1 lab4_2 lab4_3 lab4_4
 
 # =============================================================================
 # Built-in targets
