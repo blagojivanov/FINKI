@@ -1,4 +1,4 @@
-/snap/clion/218/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/218/bin/ninja/linux/ninja -G Ninja -S /home/user/CLionProjects/STRVez/FINKI -B /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug
+C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\Blagoj\CLionProjects\FINKI -B C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/user/CLionProjects/STRVez/FINKI/cmake-build-debug
+-- Build files have been written to: C:/Users/Blagoj/CLionProjects/FINKI/cmake-build-debug
