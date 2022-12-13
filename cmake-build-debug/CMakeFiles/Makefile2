@@ -78,6 +78,7 @@ all: CMakeFiles/13.dir/all
 all: CMakeFiles/14.dir/all
 all: CMakeFiles/15.dir/all
 all: CMakeFiles/2-1.dir/all
+all: CMakeFiles/2-3.dir/all
 all: CMakeFiles/2-6.dir/all
 all: CMakeFiles/2-7.dir/all
 all: CMakeFiles/2-12.dir/all
@@ -136,6 +137,7 @@ clean: CMakeFiles/13.dir/clean
 clean: CMakeFiles/14.dir/clean
 clean: CMakeFiles/15.dir/clean
 clean: CMakeFiles/2-1.dir/clean
+clean: CMakeFiles/2-3.dir/clean
 clean: CMakeFiles/2-6.dir/clean
 clean: CMakeFiles/2-7.dir/clean
 clean: CMakeFiles/2-12.dir/clean
@@ -232,7 +234,7 @@ CMakeFiles/2.dir/clean:
 CMakeFiles/3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target 3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target 3"
 .PHONY : CMakeFiles/3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -258,7 +260,7 @@ CMakeFiles/3.dir/clean:
 CMakeFiles/4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target 4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target 4"
 .PHONY : CMakeFiles/4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -284,7 +286,7 @@ CMakeFiles/4.dir/clean:
 CMakeFiles/5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=36,37 "Built target 5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target 5"
 .PHONY : CMakeFiles/5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -310,7 +312,7 @@ CMakeFiles/5.dir/clean:
 CMakeFiles/6.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.dir\build.make CMakeFiles/6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.dir\build.make CMakeFiles/6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target 6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target 6"
 .PHONY : CMakeFiles/6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -336,7 +338,7 @@ CMakeFiles/6.dir/clean:
 CMakeFiles/7.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=40,41 "Built target 7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target 7"
 .PHONY : CMakeFiles/7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -362,7 +364,7 @@ CMakeFiles/7.dir/clean:
 CMakeFiles/8.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.dir\build.make CMakeFiles/8.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.dir\build.make CMakeFiles/8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target 8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target 8"
 .PHONY : CMakeFiles/8.dir/all
 
 # Build rule for subdir invocation for target.
@@ -388,7 +390,7 @@ CMakeFiles/8.dir/clean:
 CMakeFiles/9.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9.dir\build.make CMakeFiles/9.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9.dir\build.make CMakeFiles/9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target 9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target 9"
 .PHONY : CMakeFiles/9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -590,13 +592,39 @@ CMakeFiles/2-1.dir/clean:
 .PHONY : CMakeFiles/2-1.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/2-3.dir
+
+# All Build rule for target.
+CMakeFiles/2-3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-3.dir\build.make CMakeFiles/2-3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-3.dir\build.make CMakeFiles/2-3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target 2-3"
+.PHONY : CMakeFiles/2-3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2-3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2-3.dir/rule
+
+# Convenience name for target.
+2-3: CMakeFiles/2-3.dir/rule
+.PHONY : 2-3
+
+# clean rule for target.
+CMakeFiles/2-3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-3.dir\build.make CMakeFiles/2-3.dir/clean
+.PHONY : CMakeFiles/2-3.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2-6.dir
 
 # All Build rule for target.
 CMakeFiles/2-6.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-6.dir\build.make CMakeFiles/2-6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-6.dir\build.make CMakeFiles/2-6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target 2-6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target 2-6"
 .PHONY : CMakeFiles/2-6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -622,7 +650,7 @@ CMakeFiles/2-6.dir/clean:
 CMakeFiles/2-7.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-7.dir\build.make CMakeFiles/2-7.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-7.dir\build.make CMakeFiles/2-7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target 2-7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target 2-7"
 .PHONY : CMakeFiles/2-7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -752,12 +780,12 @@ CMakeFiles/2-16.dir/clean:
 CMakeFiles/2-17.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-17.dir\build.make CMakeFiles/2-17.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-17.dir\build.make CMakeFiles/2-17.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target 2-17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=26 "Built target 2-17"
 .PHONY : CMakeFiles/2-17.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2-17.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2-17.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/2-17.dir/rule
@@ -778,7 +806,7 @@ CMakeFiles/2-17.dir/clean:
 CMakeFiles/kol1_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kol1_1.dir\build.make CMakeFiles/kol1_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kol1_1.dir\build.make CMakeFiles/kol1_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target kol1_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=58,59 "Built target kol1_1"
 .PHONY : CMakeFiles/kol1_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -804,7 +832,7 @@ CMakeFiles/kol1_1.dir/clean:
 CMakeFiles/kol1_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kol1_2.dir\build.make CMakeFiles/kol1_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kol1_2.dir\build.make CMakeFiles/kol1_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target kol1_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=60,61 "Built target kol1_2"
 .PHONY : CMakeFiles/kol1_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -830,7 +858,7 @@ CMakeFiles/kol1_2.dir/clean:
 CMakeFiles/kol1_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kol1_3.dir\build.make CMakeFiles/kol1_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kol1_3.dir\build.make CMakeFiles/kol1_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target kol1_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=62,63 "Built target kol1_3"
 .PHONY : CMakeFiles/kol1_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -856,7 +884,7 @@ CMakeFiles/kol1_3.dir/clean:
 CMakeFiles/kol1_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kol1_4.dir\build.make CMakeFiles/kol1_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kol1_4.dir\build.make CMakeFiles/kol1_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target kol1_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=64,65 "Built target kol1_4"
 .PHONY : CMakeFiles/kol1_4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -882,7 +910,7 @@ CMakeFiles/kol1_4.dir/clean:
 CMakeFiles/additional1_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_2.dir\build.make CMakeFiles/additional1_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_2.dir\build.make CMakeFiles/additional1_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target additional1_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target additional1_2"
 .PHONY : CMakeFiles/additional1_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -908,7 +936,7 @@ CMakeFiles/additional1_2.dir/clean:
 CMakeFiles/additional1_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_1.dir\build.make CMakeFiles/additional1_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_1.dir\build.make CMakeFiles/additional1_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target additional1_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target additional1_1"
 .PHONY : CMakeFiles/additional1_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -934,7 +962,7 @@ CMakeFiles/additional1_1.dir/clean:
 CMakeFiles/additional1_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_3.dir\build.make CMakeFiles/additional1_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_3.dir\build.make CMakeFiles/additional1_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=50 "Built target additional1_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=51 "Built target additional1_3"
 .PHONY : CMakeFiles/additional1_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -960,7 +988,7 @@ CMakeFiles/additional1_3.dir/clean:
 CMakeFiles/additional1_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_4.dir\build.make CMakeFiles/additional1_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_4.dir\build.make CMakeFiles/additional1_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target additional1_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target additional1_4"
 .PHONY : CMakeFiles/additional1_4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -986,7 +1014,7 @@ CMakeFiles/additional1_4.dir/clean:
 CMakeFiles/additional1_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_5.dir\build.make CMakeFiles/additional1_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_5.dir\build.make CMakeFiles/additional1_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target additional1_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target additional1_5"
 .PHONY : CMakeFiles/additional1_5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1012,7 +1040,7 @@ CMakeFiles/additional1_5.dir/clean:
 CMakeFiles/additional1_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_6.dir\build.make CMakeFiles/additional1_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\additional1_6.dir\build.make CMakeFiles/additional1_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target additional1_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=56,57 "Built target additional1_6"
 .PHONY : CMakeFiles/additional1_6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1038,7 +1066,7 @@ CMakeFiles/additional1_6.dir/clean:
 CMakeFiles/lab1_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_1.dir\build.make CMakeFiles/lab1_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_1.dir\build.make CMakeFiles/lab1_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target lab1_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=66,67 "Built target lab1_1"
 .PHONY : CMakeFiles/lab1_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1064,7 +1092,7 @@ CMakeFiles/lab1_1.dir/clean:
 CMakeFiles/lab1_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_2.dir\build.make CMakeFiles/lab1_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_2.dir\build.make CMakeFiles/lab1_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target lab1_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=68,69 "Built target lab1_2"
 .PHONY : CMakeFiles/lab1_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1090,7 +1118,7 @@ CMakeFiles/lab1_2.dir/clean:
 CMakeFiles/lab1_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_3.dir\build.make CMakeFiles/lab1_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_3.dir\build.make CMakeFiles/lab1_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target lab1_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=70,71 "Built target lab1_3"
 .PHONY : CMakeFiles/lab1_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1116,7 +1144,7 @@ CMakeFiles/lab1_3.dir/clean:
 CMakeFiles/lab2_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2_1.dir\build.make CMakeFiles/lab2_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2_1.dir\build.make CMakeFiles/lab2_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target lab2_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=72,73 "Built target lab2_1"
 .PHONY : CMakeFiles/lab2_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1142,7 +1170,7 @@ CMakeFiles/lab2_1.dir/clean:
 CMakeFiles/lab2_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2_2.dir\build.make CMakeFiles/lab2_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2_2.dir\build.make CMakeFiles/lab2_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target lab2_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=74,75 "Built target lab2_2"
 .PHONY : CMakeFiles/lab2_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1168,12 +1196,12 @@ CMakeFiles/lab2_2.dir/clean:
 CMakeFiles/lab2_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2_3.dir\build.make CMakeFiles/lab2_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2_3.dir\build.make CMakeFiles/lab2_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target lab2_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=76 "Built target lab2_3"
 .PHONY : CMakeFiles/lab2_3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lab2_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lab2_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/lab2_3.dir/rule

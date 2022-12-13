@@ -324,6 +324,19 @@ depend:
 .PHONY : 2-1/fast
 
 #=============================================================================
+# Target rules for targets named 2-3
+
+# Build rule for target.
+2-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-3
+.PHONY : 2-3
+
+# fast build rule for target.
+2-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-3.dir\build.make CMakeFiles/2-3.dir/build
+.PHONY : 2-3/fast
+
+#=============================================================================
 # Target rules for targets named 2-6
 
 # Build rule for target.
@@ -1354,6 +1367,30 @@ SP/Vezbi_II_Kol/2-17.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-17.dir\build.make CMakeFiles/2-17.dir/SP/Vezbi_II_Kol/2-17.c.s
 .PHONY : SP/Vezbi_II_Kol/2-17.c.s
 
+SP/Vezbi_II_Kol/2-3.obj: SP/Vezbi_II_Kol/2-3.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-3.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/2-3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-3.dir\build.make CMakeFiles/2-3.dir/SP/Vezbi_II_Kol/2-3.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-3.c.obj
+
+SP/Vezbi_II_Kol/2-3.i: SP/Vezbi_II_Kol/2-3.c.i
+.PHONY : SP/Vezbi_II_Kol/2-3.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/2-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-3.dir\build.make CMakeFiles/2-3.dir/SP/Vezbi_II_Kol/2-3.c.i
+.PHONY : SP/Vezbi_II_Kol/2-3.c.i
+
+SP/Vezbi_II_Kol/2-3.s: SP/Vezbi_II_Kol/2-3.c.s
+.PHONY : SP/Vezbi_II_Kol/2-3.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/2-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-3.dir\build.make CMakeFiles/2-3.dir/SP/Vezbi_II_Kol/2-3.c.s
+.PHONY : SP/Vezbi_II_Kol/2-3.c.s
+
 SP/Vezbi_II_Kol/2-6.obj: SP/Vezbi_II_Kol/2-6.c.obj
 .PHONY : SP/Vezbi_II_Kol/2-6.obj
 
@@ -2024,6 +2061,7 @@ help:
 	@echo ... 2-14
 	@echo ... 2-16
 	@echo ... 2-17
+	@echo ... 2-3
 	@echo ... 2-6
 	@echo ... 2-7
 	@echo ... 3
@@ -2133,6 +2171,9 @@ help:
 	@echo ... SP/Vezbi_II_Kol/2-17.obj
 	@echo ... SP/Vezbi_II_Kol/2-17.i
 	@echo ... SP/Vezbi_II_Kol/2-17.s
+	@echo ... SP/Vezbi_II_Kol/2-3.obj
+	@echo ... SP/Vezbi_II_Kol/2-3.i
+	@echo ... SP/Vezbi_II_Kol/2-3.s
 	@echo ... SP/Vezbi_II_Kol/2-6.obj
 	@echo ... SP/Vezbi_II_Kol/2-6.i
 	@echo ... SP/Vezbi_II_Kol/2-6.s
