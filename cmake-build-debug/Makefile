@@ -324,6 +324,19 @@ depend:
 .PHONY : 2-1/fast
 
 #=============================================================================
+# Target rules for targets named 2-2
+
+# Build rule for target.
+2-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-2
+.PHONY : 2-2
+
+# fast build rule for target.
+2-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-2.dir\build.make CMakeFiles/2-2.dir/build
+.PHONY : 2-2/fast
+
+#=============================================================================
 # Target rules for targets named 2-3
 
 # Build rule for target.
@@ -335,6 +348,32 @@ depend:
 2-3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-3.dir\build.make CMakeFiles/2-3.dir/build
 .PHONY : 2-3/fast
+
+#=============================================================================
+# Target rules for targets named 2-4
+
+# Build rule for target.
+2-4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-4
+.PHONY : 2-4
+
+# fast build rule for target.
+2-4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-4.dir\build.make CMakeFiles/2-4.dir/build
+.PHONY : 2-4/fast
+
+#=============================================================================
+# Target rules for targets named 2-5
+
+# Build rule for target.
+2-5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-5
+.PHONY : 2-5
+
+# fast build rule for target.
+2-5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-5.dir\build.make CMakeFiles/2-5.dir/build
+.PHONY : 2-5/fast
 
 #=============================================================================
 # Target rules for targets named 2-6
@@ -791,6 +830,136 @@ lab6_3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6_3.dir\build.make CMakeFiles/lab6_3.dir/build
 .PHONY : lab6_3/fast
 
+#=============================================================================
+# Target rules for targets named lab7_1
+
+# Build rule for target.
+lab7_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab7_1
+.PHONY : lab7_1
+
+# fast build rule for target.
+lab7_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_1.dir\build.make CMakeFiles/lab7_1.dir/build
+.PHONY : lab7_1/fast
+
+#=============================================================================
+# Target rules for targets named lab7_2
+
+# Build rule for target.
+lab7_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab7_2
+.PHONY : lab7_2
+
+# fast build rule for target.
+lab7_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_2.dir\build.make CMakeFiles/lab7_2.dir/build
+.PHONY : lab7_2/fast
+
+#=============================================================================
+# Target rules for targets named lab7_3
+
+# Build rule for target.
+lab7_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab7_3
+.PHONY : lab7_3
+
+# fast build rule for target.
+lab7_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_3.dir\build.make CMakeFiles/lab7_3.dir/build
+.PHONY : lab7_3/fast
+
+#=============================================================================
+# Target rules for targets named lab7_4
+
+# Build rule for target.
+lab7_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab7_4
+.PHONY : lab7_4
+
+# fast build rule for target.
+lab7_4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_4.dir\build.make CMakeFiles/lab7_4.dir/build
+.PHONY : lab7_4/fast
+
+#=============================================================================
+# Target rules for targets named lab8_1
+
+# Build rule for target.
+lab8_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab8_1
+.PHONY : lab8_1
+
+# fast build rule for target.
+lab8_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_1.dir\build.make CMakeFiles/lab8_1.dir/build
+.PHONY : lab8_1/fast
+
+#=============================================================================
+# Target rules for targets named lab8_2
+
+# Build rule for target.
+lab8_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab8_2
+.PHONY : lab8_2
+
+# fast build rule for target.
+lab8_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_2.dir\build.make CMakeFiles/lab8_2.dir/build
+.PHONY : lab8_2/fast
+
+#=============================================================================
+# Target rules for targets named lab8_3
+
+# Build rule for target.
+lab8_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab8_3
+.PHONY : lab8_3
+
+# fast build rule for target.
+lab8_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_3.dir\build.make CMakeFiles/lab8_3.dir/build
+.PHONY : lab8_3/fast
+
+#=============================================================================
+# Target rules for targets named lab9_1
+
+# Build rule for target.
+lab9_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab9_1
+.PHONY : lab9_1
+
+# fast build rule for target.
+lab9_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_1.dir\build.make CMakeFiles/lab9_1.dir/build
+.PHONY : lab9_1/fast
+
+#=============================================================================
+# Target rules for targets named lab9_2
+
+# Build rule for target.
+lab9_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab9_2
+.PHONY : lab9_2
+
+# fast build rule for target.
+lab9_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_2.dir\build.make CMakeFiles/lab9_2.dir/build
+.PHONY : lab9_2/fast
+
+#=============================================================================
+# Target rules for targets named lab9_3
+
+# Build rule for target.
+lab9_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab9_3
+.PHONY : lab9_3
+
+# fast build rule for target.
+lab9_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_3.dir\build.make CMakeFiles/lab9_3.dir/build
+.PHONY : lab9_3/fast
+
 SP/Lab/1/lab1_1.obj: SP/Lab/1/lab1_1.c.obj
 .PHONY : SP/Lab/1/lab1_1.obj
 
@@ -1223,6 +1392,246 @@ SP/Lab/6/lab6_3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6_3.dir\build.make CMakeFiles/lab6_3.dir/SP/Lab/6/lab6_3.c.s
 .PHONY : SP/Lab/6/lab6_3.c.s
 
+SP/Lab/7/lab7_1.obj: SP/Lab/7/lab7_1.c.obj
+.PHONY : SP/Lab/7/lab7_1.obj
+
+# target to build an object file
+SP/Lab/7/lab7_1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_1.dir\build.make CMakeFiles/lab7_1.dir/SP/Lab/7/lab7_1.c.obj
+.PHONY : SP/Lab/7/lab7_1.c.obj
+
+SP/Lab/7/lab7_1.i: SP/Lab/7/lab7_1.c.i
+.PHONY : SP/Lab/7/lab7_1.i
+
+# target to preprocess a source file
+SP/Lab/7/lab7_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_1.dir\build.make CMakeFiles/lab7_1.dir/SP/Lab/7/lab7_1.c.i
+.PHONY : SP/Lab/7/lab7_1.c.i
+
+SP/Lab/7/lab7_1.s: SP/Lab/7/lab7_1.c.s
+.PHONY : SP/Lab/7/lab7_1.s
+
+# target to generate assembly for a file
+SP/Lab/7/lab7_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_1.dir\build.make CMakeFiles/lab7_1.dir/SP/Lab/7/lab7_1.c.s
+.PHONY : SP/Lab/7/lab7_1.c.s
+
+SP/Lab/7/lab7_2.obj: SP/Lab/7/lab7_2.c.obj
+.PHONY : SP/Lab/7/lab7_2.obj
+
+# target to build an object file
+SP/Lab/7/lab7_2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_2.dir\build.make CMakeFiles/lab7_2.dir/SP/Lab/7/lab7_2.c.obj
+.PHONY : SP/Lab/7/lab7_2.c.obj
+
+SP/Lab/7/lab7_2.i: SP/Lab/7/lab7_2.c.i
+.PHONY : SP/Lab/7/lab7_2.i
+
+# target to preprocess a source file
+SP/Lab/7/lab7_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_2.dir\build.make CMakeFiles/lab7_2.dir/SP/Lab/7/lab7_2.c.i
+.PHONY : SP/Lab/7/lab7_2.c.i
+
+SP/Lab/7/lab7_2.s: SP/Lab/7/lab7_2.c.s
+.PHONY : SP/Lab/7/lab7_2.s
+
+# target to generate assembly for a file
+SP/Lab/7/lab7_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_2.dir\build.make CMakeFiles/lab7_2.dir/SP/Lab/7/lab7_2.c.s
+.PHONY : SP/Lab/7/lab7_2.c.s
+
+SP/Lab/7/lab7_3.obj: SP/Lab/7/lab7_3.c.obj
+.PHONY : SP/Lab/7/lab7_3.obj
+
+# target to build an object file
+SP/Lab/7/lab7_3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_3.dir\build.make CMakeFiles/lab7_3.dir/SP/Lab/7/lab7_3.c.obj
+.PHONY : SP/Lab/7/lab7_3.c.obj
+
+SP/Lab/7/lab7_3.i: SP/Lab/7/lab7_3.c.i
+.PHONY : SP/Lab/7/lab7_3.i
+
+# target to preprocess a source file
+SP/Lab/7/lab7_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_3.dir\build.make CMakeFiles/lab7_3.dir/SP/Lab/7/lab7_3.c.i
+.PHONY : SP/Lab/7/lab7_3.c.i
+
+SP/Lab/7/lab7_3.s: SP/Lab/7/lab7_3.c.s
+.PHONY : SP/Lab/7/lab7_3.s
+
+# target to generate assembly for a file
+SP/Lab/7/lab7_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_3.dir\build.make CMakeFiles/lab7_3.dir/SP/Lab/7/lab7_3.c.s
+.PHONY : SP/Lab/7/lab7_3.c.s
+
+SP/Lab/7/lab7_4.obj: SP/Lab/7/lab7_4.c.obj
+.PHONY : SP/Lab/7/lab7_4.obj
+
+# target to build an object file
+SP/Lab/7/lab7_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_4.dir\build.make CMakeFiles/lab7_4.dir/SP/Lab/7/lab7_4.c.obj
+.PHONY : SP/Lab/7/lab7_4.c.obj
+
+SP/Lab/7/lab7_4.i: SP/Lab/7/lab7_4.c.i
+.PHONY : SP/Lab/7/lab7_4.i
+
+# target to preprocess a source file
+SP/Lab/7/lab7_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_4.dir\build.make CMakeFiles/lab7_4.dir/SP/Lab/7/lab7_4.c.i
+.PHONY : SP/Lab/7/lab7_4.c.i
+
+SP/Lab/7/lab7_4.s: SP/Lab/7/lab7_4.c.s
+.PHONY : SP/Lab/7/lab7_4.s
+
+# target to generate assembly for a file
+SP/Lab/7/lab7_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_4.dir\build.make CMakeFiles/lab7_4.dir/SP/Lab/7/lab7_4.c.s
+.PHONY : SP/Lab/7/lab7_4.c.s
+
+SP/Lab/8/lab8_1.obj: SP/Lab/8/lab8_1.c.obj
+.PHONY : SP/Lab/8/lab8_1.obj
+
+# target to build an object file
+SP/Lab/8/lab8_1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_1.dir\build.make CMakeFiles/lab8_1.dir/SP/Lab/8/lab8_1.c.obj
+.PHONY : SP/Lab/8/lab8_1.c.obj
+
+SP/Lab/8/lab8_1.i: SP/Lab/8/lab8_1.c.i
+.PHONY : SP/Lab/8/lab8_1.i
+
+# target to preprocess a source file
+SP/Lab/8/lab8_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_1.dir\build.make CMakeFiles/lab8_1.dir/SP/Lab/8/lab8_1.c.i
+.PHONY : SP/Lab/8/lab8_1.c.i
+
+SP/Lab/8/lab8_1.s: SP/Lab/8/lab8_1.c.s
+.PHONY : SP/Lab/8/lab8_1.s
+
+# target to generate assembly for a file
+SP/Lab/8/lab8_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_1.dir\build.make CMakeFiles/lab8_1.dir/SP/Lab/8/lab8_1.c.s
+.PHONY : SP/Lab/8/lab8_1.c.s
+
+SP/Lab/8/lab8_2.obj: SP/Lab/8/lab8_2.c.obj
+.PHONY : SP/Lab/8/lab8_2.obj
+
+# target to build an object file
+SP/Lab/8/lab8_2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_2.dir\build.make CMakeFiles/lab8_2.dir/SP/Lab/8/lab8_2.c.obj
+.PHONY : SP/Lab/8/lab8_2.c.obj
+
+SP/Lab/8/lab8_2.i: SP/Lab/8/lab8_2.c.i
+.PHONY : SP/Lab/8/lab8_2.i
+
+# target to preprocess a source file
+SP/Lab/8/lab8_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_2.dir\build.make CMakeFiles/lab8_2.dir/SP/Lab/8/lab8_2.c.i
+.PHONY : SP/Lab/8/lab8_2.c.i
+
+SP/Lab/8/lab8_2.s: SP/Lab/8/lab8_2.c.s
+.PHONY : SP/Lab/8/lab8_2.s
+
+# target to generate assembly for a file
+SP/Lab/8/lab8_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_2.dir\build.make CMakeFiles/lab8_2.dir/SP/Lab/8/lab8_2.c.s
+.PHONY : SP/Lab/8/lab8_2.c.s
+
+SP/Lab/8/lab8_3.obj: SP/Lab/8/lab8_3.c.obj
+.PHONY : SP/Lab/8/lab8_3.obj
+
+# target to build an object file
+SP/Lab/8/lab8_3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_3.dir\build.make CMakeFiles/lab8_3.dir/SP/Lab/8/lab8_3.c.obj
+.PHONY : SP/Lab/8/lab8_3.c.obj
+
+SP/Lab/8/lab8_3.i: SP/Lab/8/lab8_3.c.i
+.PHONY : SP/Lab/8/lab8_3.i
+
+# target to preprocess a source file
+SP/Lab/8/lab8_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_3.dir\build.make CMakeFiles/lab8_3.dir/SP/Lab/8/lab8_3.c.i
+.PHONY : SP/Lab/8/lab8_3.c.i
+
+SP/Lab/8/lab8_3.s: SP/Lab/8/lab8_3.c.s
+.PHONY : SP/Lab/8/lab8_3.s
+
+# target to generate assembly for a file
+SP/Lab/8/lab8_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_3.dir\build.make CMakeFiles/lab8_3.dir/SP/Lab/8/lab8_3.c.s
+.PHONY : SP/Lab/8/lab8_3.c.s
+
+SP/Lab/9/lab9_1.obj: SP/Lab/9/lab9_1.c.obj
+.PHONY : SP/Lab/9/lab9_1.obj
+
+# target to build an object file
+SP/Lab/9/lab9_1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_1.dir\build.make CMakeFiles/lab9_1.dir/SP/Lab/9/lab9_1.c.obj
+.PHONY : SP/Lab/9/lab9_1.c.obj
+
+SP/Lab/9/lab9_1.i: SP/Lab/9/lab9_1.c.i
+.PHONY : SP/Lab/9/lab9_1.i
+
+# target to preprocess a source file
+SP/Lab/9/lab9_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_1.dir\build.make CMakeFiles/lab9_1.dir/SP/Lab/9/lab9_1.c.i
+.PHONY : SP/Lab/9/lab9_1.c.i
+
+SP/Lab/9/lab9_1.s: SP/Lab/9/lab9_1.c.s
+.PHONY : SP/Lab/9/lab9_1.s
+
+# target to generate assembly for a file
+SP/Lab/9/lab9_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_1.dir\build.make CMakeFiles/lab9_1.dir/SP/Lab/9/lab9_1.c.s
+.PHONY : SP/Lab/9/lab9_1.c.s
+
+SP/Lab/9/lab9_2.obj: SP/Lab/9/lab9_2.c.obj
+.PHONY : SP/Lab/9/lab9_2.obj
+
+# target to build an object file
+SP/Lab/9/lab9_2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_2.dir\build.make CMakeFiles/lab9_2.dir/SP/Lab/9/lab9_2.c.obj
+.PHONY : SP/Lab/9/lab9_2.c.obj
+
+SP/Lab/9/lab9_2.i: SP/Lab/9/lab9_2.c.i
+.PHONY : SP/Lab/9/lab9_2.i
+
+# target to preprocess a source file
+SP/Lab/9/lab9_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_2.dir\build.make CMakeFiles/lab9_2.dir/SP/Lab/9/lab9_2.c.i
+.PHONY : SP/Lab/9/lab9_2.c.i
+
+SP/Lab/9/lab9_2.s: SP/Lab/9/lab9_2.c.s
+.PHONY : SP/Lab/9/lab9_2.s
+
+# target to generate assembly for a file
+SP/Lab/9/lab9_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_2.dir\build.make CMakeFiles/lab9_2.dir/SP/Lab/9/lab9_2.c.s
+.PHONY : SP/Lab/9/lab9_2.c.s
+
+SP/Lab/9/lab9_3.obj: SP/Lab/9/lab9_3.c.obj
+.PHONY : SP/Lab/9/lab9_3.obj
+
+# target to build an object file
+SP/Lab/9/lab9_3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_3.dir\build.make CMakeFiles/lab9_3.dir/SP/Lab/9/lab9_3.c.obj
+.PHONY : SP/Lab/9/lab9_3.c.obj
+
+SP/Lab/9/lab9_3.i: SP/Lab/9/lab9_3.c.i
+.PHONY : SP/Lab/9/lab9_3.i
+
+# target to preprocess a source file
+SP/Lab/9/lab9_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_3.dir\build.make CMakeFiles/lab9_3.dir/SP/Lab/9/lab9_3.c.i
+.PHONY : SP/Lab/9/lab9_3.c.i
+
+SP/Lab/9/lab9_3.s: SP/Lab/9/lab9_3.c.s
+.PHONY : SP/Lab/9/lab9_3.s
+
+# target to generate assembly for a file
+SP/Lab/9/lab9_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_3.dir\build.make CMakeFiles/lab9_3.dir/SP/Lab/9/lab9_3.c.s
+.PHONY : SP/Lab/9/lab9_3.c.s
+
 SP/Vezbi_II_Kol/2-1.obj: SP/Vezbi_II_Kol/2-1.c.obj
 .PHONY : SP/Vezbi_II_Kol/2-1.obj
 
@@ -1367,6 +1776,30 @@ SP/Vezbi_II_Kol/2-17.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-17.dir\build.make CMakeFiles/2-17.dir/SP/Vezbi_II_Kol/2-17.c.s
 .PHONY : SP/Vezbi_II_Kol/2-17.c.s
 
+SP/Vezbi_II_Kol/2-2.obj: SP/Vezbi_II_Kol/2-2.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-2.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/2-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-2.dir\build.make CMakeFiles/2-2.dir/SP/Vezbi_II_Kol/2-2.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-2.c.obj
+
+SP/Vezbi_II_Kol/2-2.i: SP/Vezbi_II_Kol/2-2.c.i
+.PHONY : SP/Vezbi_II_Kol/2-2.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/2-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-2.dir\build.make CMakeFiles/2-2.dir/SP/Vezbi_II_Kol/2-2.c.i
+.PHONY : SP/Vezbi_II_Kol/2-2.c.i
+
+SP/Vezbi_II_Kol/2-2.s: SP/Vezbi_II_Kol/2-2.c.s
+.PHONY : SP/Vezbi_II_Kol/2-2.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/2-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-2.dir\build.make CMakeFiles/2-2.dir/SP/Vezbi_II_Kol/2-2.c.s
+.PHONY : SP/Vezbi_II_Kol/2-2.c.s
+
 SP/Vezbi_II_Kol/2-3.obj: SP/Vezbi_II_Kol/2-3.c.obj
 .PHONY : SP/Vezbi_II_Kol/2-3.obj
 
@@ -1390,6 +1823,54 @@ SP/Vezbi_II_Kol/2-3.s: SP/Vezbi_II_Kol/2-3.c.s
 SP/Vezbi_II_Kol/2-3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-3.dir\build.make CMakeFiles/2-3.dir/SP/Vezbi_II_Kol/2-3.c.s
 .PHONY : SP/Vezbi_II_Kol/2-3.c.s
+
+SP/Vezbi_II_Kol/2-4.obj: SP/Vezbi_II_Kol/2-4.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-4.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/2-4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-4.dir\build.make CMakeFiles/2-4.dir/SP/Vezbi_II_Kol/2-4.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-4.c.obj
+
+SP/Vezbi_II_Kol/2-4.i: SP/Vezbi_II_Kol/2-4.c.i
+.PHONY : SP/Vezbi_II_Kol/2-4.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/2-4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-4.dir\build.make CMakeFiles/2-4.dir/SP/Vezbi_II_Kol/2-4.c.i
+.PHONY : SP/Vezbi_II_Kol/2-4.c.i
+
+SP/Vezbi_II_Kol/2-4.s: SP/Vezbi_II_Kol/2-4.c.s
+.PHONY : SP/Vezbi_II_Kol/2-4.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/2-4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-4.dir\build.make CMakeFiles/2-4.dir/SP/Vezbi_II_Kol/2-4.c.s
+.PHONY : SP/Vezbi_II_Kol/2-4.c.s
+
+SP/Vezbi_II_Kol/2-5.obj: SP/Vezbi_II_Kol/2-5.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-5.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/2-5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-5.dir\build.make CMakeFiles/2-5.dir/SP/Vezbi_II_Kol/2-5.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-5.c.obj
+
+SP/Vezbi_II_Kol/2-5.i: SP/Vezbi_II_Kol/2-5.c.i
+.PHONY : SP/Vezbi_II_Kol/2-5.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/2-5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-5.dir\build.make CMakeFiles/2-5.dir/SP/Vezbi_II_Kol/2-5.c.i
+.PHONY : SP/Vezbi_II_Kol/2-5.c.i
+
+SP/Vezbi_II_Kol/2-5.s: SP/Vezbi_II_Kol/2-5.c.s
+.PHONY : SP/Vezbi_II_Kol/2-5.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/2-5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-5.dir\build.make CMakeFiles/2-5.dir/SP/Vezbi_II_Kol/2-5.c.s
+.PHONY : SP/Vezbi_II_Kol/2-5.c.s
 
 SP/Vezbi_II_Kol/2-6.obj: SP/Vezbi_II_Kol/2-6.c.obj
 .PHONY : SP/Vezbi_II_Kol/2-6.obj
@@ -2061,7 +2542,10 @@ help:
 	@echo ... 2-14
 	@echo ... 2-16
 	@echo ... 2-17
+	@echo ... 2-2
 	@echo ... 2-3
+	@echo ... 2-4
+	@echo ... 2-5
 	@echo ... 2-6
 	@echo ... 2-7
 	@echo ... 3
@@ -2099,6 +2583,16 @@ help:
 	@echo ... lab6_1
 	@echo ... lab6_2
 	@echo ... lab6_3
+	@echo ... lab7_1
+	@echo ... lab7_2
+	@echo ... lab7_3
+	@echo ... lab7_4
+	@echo ... lab8_1
+	@echo ... lab8_2
+	@echo ... lab8_3
+	@echo ... lab9_1
+	@echo ... lab9_2
+	@echo ... lab9_3
 	@echo ... SP/Lab/1/lab1_1.obj
 	@echo ... SP/Lab/1/lab1_1.i
 	@echo ... SP/Lab/1/lab1_1.s
@@ -2153,6 +2647,36 @@ help:
 	@echo ... SP/Lab/6/lab6_3.obj
 	@echo ... SP/Lab/6/lab6_3.i
 	@echo ... SP/Lab/6/lab6_3.s
+	@echo ... SP/Lab/7/lab7_1.obj
+	@echo ... SP/Lab/7/lab7_1.i
+	@echo ... SP/Lab/7/lab7_1.s
+	@echo ... SP/Lab/7/lab7_2.obj
+	@echo ... SP/Lab/7/lab7_2.i
+	@echo ... SP/Lab/7/lab7_2.s
+	@echo ... SP/Lab/7/lab7_3.obj
+	@echo ... SP/Lab/7/lab7_3.i
+	@echo ... SP/Lab/7/lab7_3.s
+	@echo ... SP/Lab/7/lab7_4.obj
+	@echo ... SP/Lab/7/lab7_4.i
+	@echo ... SP/Lab/7/lab7_4.s
+	@echo ... SP/Lab/8/lab8_1.obj
+	@echo ... SP/Lab/8/lab8_1.i
+	@echo ... SP/Lab/8/lab8_1.s
+	@echo ... SP/Lab/8/lab8_2.obj
+	@echo ... SP/Lab/8/lab8_2.i
+	@echo ... SP/Lab/8/lab8_2.s
+	@echo ... SP/Lab/8/lab8_3.obj
+	@echo ... SP/Lab/8/lab8_3.i
+	@echo ... SP/Lab/8/lab8_3.s
+	@echo ... SP/Lab/9/lab9_1.obj
+	@echo ... SP/Lab/9/lab9_1.i
+	@echo ... SP/Lab/9/lab9_1.s
+	@echo ... SP/Lab/9/lab9_2.obj
+	@echo ... SP/Lab/9/lab9_2.i
+	@echo ... SP/Lab/9/lab9_2.s
+	@echo ... SP/Lab/9/lab9_3.obj
+	@echo ... SP/Lab/9/lab9_3.i
+	@echo ... SP/Lab/9/lab9_3.s
 	@echo ... SP/Vezbi_II_Kol/2-1.obj
 	@echo ... SP/Vezbi_II_Kol/2-1.i
 	@echo ... SP/Vezbi_II_Kol/2-1.s
@@ -2171,9 +2695,18 @@ help:
 	@echo ... SP/Vezbi_II_Kol/2-17.obj
 	@echo ... SP/Vezbi_II_Kol/2-17.i
 	@echo ... SP/Vezbi_II_Kol/2-17.s
+	@echo ... SP/Vezbi_II_Kol/2-2.obj
+	@echo ... SP/Vezbi_II_Kol/2-2.i
+	@echo ... SP/Vezbi_II_Kol/2-2.s
 	@echo ... SP/Vezbi_II_Kol/2-3.obj
 	@echo ... SP/Vezbi_II_Kol/2-3.i
 	@echo ... SP/Vezbi_II_Kol/2-3.s
+	@echo ... SP/Vezbi_II_Kol/2-4.obj
+	@echo ... SP/Vezbi_II_Kol/2-4.i
+	@echo ... SP/Vezbi_II_Kol/2-4.s
+	@echo ... SP/Vezbi_II_Kol/2-5.obj
+	@echo ... SP/Vezbi_II_Kol/2-5.i
+	@echo ... SP/Vezbi_II_Kol/2-5.s
 	@echo ... SP/Vezbi_II_Kol/2-6.obj
 	@echo ... SP/Vezbi_II_Kol/2-6.i
 	@echo ... SP/Vezbi_II_Kol/2-6.s
