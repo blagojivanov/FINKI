@@ -47,10 +47,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -402,6 +402,58 @@ depend:
 .PHONY : 2-7/fast
 
 #=============================================================================
+# Target rules for targets named 2-8
+
+# Build rule for target.
+2-8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-8
+.PHONY : 2-8
+
+# fast build rule for target.
+2-8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-8.dir\build.make CMakeFiles/2-8.dir/build
+.PHONY : 2-8/fast
+
+#=============================================================================
+# Target rules for targets named 2-9
+
+# Build rule for target.
+2-9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-9
+.PHONY : 2-9
+
+# fast build rule for target.
+2-9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-9.dir\build.make CMakeFiles/2-9.dir/build
+.PHONY : 2-9/fast
+
+#=============================================================================
+# Target rules for targets named 2-10
+
+# Build rule for target.
+2-10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-10
+.PHONY : 2-10
+
+# fast build rule for target.
+2-10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-10.dir\build.make CMakeFiles/2-10.dir/build
+.PHONY : 2-10/fast
+
+#=============================================================================
+# Target rules for targets named 2-11
+
+# Build rule for target.
+2-11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-11
+.PHONY : 2-11
+
+# fast build rule for target.
+2-11/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-11.dir\build.make CMakeFiles/2-11.dir/build
+.PHONY : 2-11/fast
+
+#=============================================================================
 # Target rules for targets named 2-12
 
 # Build rule for target.
@@ -441,6 +493,19 @@ depend:
 .PHONY : 2-14/fast
 
 #=============================================================================
+# Target rules for targets named 2-15
+
+# Build rule for target.
+2-15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-15
+.PHONY : 2-15
+
+# fast build rule for target.
+2-15/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-15.dir\build.make CMakeFiles/2-15.dir/build
+.PHONY : 2-15/fast
+
+#=============================================================================
 # Target rules for targets named 2-16
 
 # Build rule for target.
@@ -465,6 +530,188 @@ depend:
 2-17/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-17.dir\build.make CMakeFiles/2-17.dir/build
 .PHONY : 2-17/fast
+
+#=============================================================================
+# Target rules for targets named 2-18
+
+# Build rule for target.
+2-18: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-18
+.PHONY : 2-18
+
+# fast build rule for target.
+2-18/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-18.dir\build.make CMakeFiles/2-18.dir/build
+.PHONY : 2-18/fast
+
+#=============================================================================
+# Target rules for targets named 2-19
+
+# Build rule for target.
+2-19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-19
+.PHONY : 2-19
+
+# fast build rule for target.
+2-19/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-19.dir\build.make CMakeFiles/2-19.dir/build
+.PHONY : 2-19/fast
+
+#=============================================================================
+# Target rules for targets named add2-1
+
+# Build rule for target.
+add2-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 add2-1
+.PHONY : add2-1
+
+# fast build rule for target.
+add2-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-1.dir\build.make CMakeFiles/add2-1.dir/build
+.PHONY : add2-1/fast
+
+#=============================================================================
+# Target rules for targets named add2-2
+
+# Build rule for target.
+add2-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 add2-2
+.PHONY : add2-2
+
+# fast build rule for target.
+add2-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-2.dir\build.make CMakeFiles/add2-2.dir/build
+.PHONY : add2-2/fast
+
+#=============================================================================
+# Target rules for targets named add2-3
+
+# Build rule for target.
+add2-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 add2-3
+.PHONY : add2-3
+
+# fast build rule for target.
+add2-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-3.dir\build.make CMakeFiles/add2-3.dir/build
+.PHONY : add2-3/fast
+
+#=============================================================================
+# Target rules for targets named add2-4
+
+# Build rule for target.
+add2-4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 add2-4
+.PHONY : add2-4
+
+# fast build rule for target.
+add2-4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-4.dir\build.make CMakeFiles/add2-4.dir/build
+.PHONY : add2-4/fast
+
+#=============================================================================
+# Target rules for targets named add2-5
+
+# Build rule for target.
+add2-5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 add2-5
+.PHONY : add2-5
+
+# fast build rule for target.
+add2-5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-5.dir\build.make CMakeFiles/add2-5.dir/build
+.PHONY : add2-5/fast
+
+#=============================================================================
+# Target rules for targets named add2-6
+
+# Build rule for target.
+add2-6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 add2-6
+.PHONY : add2-6
+
+# fast build rule for target.
+add2-6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-6.dir\build.make CMakeFiles/add2-6.dir/build
+.PHONY : add2-6/fast
+
+#=============================================================================
+# Target rules for targets named add2-7
+
+# Build rule for target.
+add2-7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 add2-7
+.PHONY : add2-7
+
+# fast build rule for target.
+add2-7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-7.dir\build.make CMakeFiles/add2-7.dir/build
+.PHONY : add2-7/fast
+
+#=============================================================================
+# Target rules for targets named add2-8
+
+# Build rule for target.
+add2-8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 add2-8
+.PHONY : add2-8
+
+# fast build rule for target.
+add2-8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-8.dir\build.make CMakeFiles/add2-8.dir/build
+.PHONY : add2-8/fast
+
+#=============================================================================
+# Target rules for targets named add2-9
+
+# Build rule for target.
+add2-9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 add2-9
+.PHONY : add2-9
+
+# fast build rule for target.
+add2-9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-9.dir\build.make CMakeFiles/add2-9.dir/build
+.PHONY : add2-9/fast
+
+#=============================================================================
+# Target rules for targets named add2-10
+
+# Build rule for target.
+add2-10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 add2-10
+.PHONY : add2-10
+
+# fast build rule for target.
+add2-10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-10.dir\build.make CMakeFiles/add2-10.dir/build
+.PHONY : add2-10/fast
+
+#=============================================================================
+# Target rules for targets named ste1-2022
+
+# Build rule for target.
+ste1-2022: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ste1-2022
+.PHONY : ste1-2022
+
+# fast build rule for target.
+ste1-2022/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ste1-2022.dir\build.make CMakeFiles/ste1-2022.dir/build
+.PHONY : ste1-2022/fast
+
+#=============================================================================
+# Target rules for targets named ste2-2022
+
+# Build rule for target.
+ste2-2022: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ste2-2022
+.PHONY : ste2-2022
+
+# fast build rule for target.
+ste2-2022/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ste2-2022.dir\build.make CMakeFiles/ste2-2022.dir/build
+.PHONY : ste2-2022/fast
 
 #=============================================================================
 # Target rules for targets named kol1_1
@@ -960,6 +1207,45 @@ lab9_3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab9_3.dir\build.make CMakeFiles/lab9_3.dir/build
 .PHONY : lab9_3/fast
 
+#=============================================================================
+# Target rules for targets named lab10_1
+
+# Build rule for target.
+lab10_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab10_1
+.PHONY : lab10_1
+
+# fast build rule for target.
+lab10_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_1.dir\build.make CMakeFiles/lab10_1.dir/build
+.PHONY : lab10_1/fast
+
+#=============================================================================
+# Target rules for targets named lab10_2
+
+# Build rule for target.
+lab10_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab10_2
+.PHONY : lab10_2
+
+# fast build rule for target.
+lab10_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_2.dir\build.make CMakeFiles/lab10_2.dir/build
+.PHONY : lab10_2/fast
+
+#=============================================================================
+# Target rules for targets named lab10_3
+
+# Build rule for target.
+lab10_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab10_3
+.PHONY : lab10_3
+
+# fast build rule for target.
+lab10_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_3.dir\build.make CMakeFiles/lab10_3.dir/build
+.PHONY : lab10_3/fast
+
 SP/Lab/1/lab1_1.obj: SP/Lab/1/lab1_1.c.obj
 .PHONY : SP/Lab/1/lab1_1.obj
 
@@ -1031,6 +1317,78 @@ SP/Lab/1/lab1_3.s: SP/Lab/1/lab1_3.c.s
 SP/Lab/1/lab1_3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_3.dir\build.make CMakeFiles/lab1_3.dir/SP/Lab/1/lab1_3.c.s
 .PHONY : SP/Lab/1/lab1_3.c.s
+
+SP/Lab/10/lab10_1.obj: SP/Lab/10/lab10_1.c.obj
+.PHONY : SP/Lab/10/lab10_1.obj
+
+# target to build an object file
+SP/Lab/10/lab10_1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_1.dir\build.make CMakeFiles/lab10_1.dir/SP/Lab/10/lab10_1.c.obj
+.PHONY : SP/Lab/10/lab10_1.c.obj
+
+SP/Lab/10/lab10_1.i: SP/Lab/10/lab10_1.c.i
+.PHONY : SP/Lab/10/lab10_1.i
+
+# target to preprocess a source file
+SP/Lab/10/lab10_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_1.dir\build.make CMakeFiles/lab10_1.dir/SP/Lab/10/lab10_1.c.i
+.PHONY : SP/Lab/10/lab10_1.c.i
+
+SP/Lab/10/lab10_1.s: SP/Lab/10/lab10_1.c.s
+.PHONY : SP/Lab/10/lab10_1.s
+
+# target to generate assembly for a file
+SP/Lab/10/lab10_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_1.dir\build.make CMakeFiles/lab10_1.dir/SP/Lab/10/lab10_1.c.s
+.PHONY : SP/Lab/10/lab10_1.c.s
+
+SP/Lab/10/lab10_2.obj: SP/Lab/10/lab10_2.c.obj
+.PHONY : SP/Lab/10/lab10_2.obj
+
+# target to build an object file
+SP/Lab/10/lab10_2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_2.dir\build.make CMakeFiles/lab10_2.dir/SP/Lab/10/lab10_2.c.obj
+.PHONY : SP/Lab/10/lab10_2.c.obj
+
+SP/Lab/10/lab10_2.i: SP/Lab/10/lab10_2.c.i
+.PHONY : SP/Lab/10/lab10_2.i
+
+# target to preprocess a source file
+SP/Lab/10/lab10_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_2.dir\build.make CMakeFiles/lab10_2.dir/SP/Lab/10/lab10_2.c.i
+.PHONY : SP/Lab/10/lab10_2.c.i
+
+SP/Lab/10/lab10_2.s: SP/Lab/10/lab10_2.c.s
+.PHONY : SP/Lab/10/lab10_2.s
+
+# target to generate assembly for a file
+SP/Lab/10/lab10_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_2.dir\build.make CMakeFiles/lab10_2.dir/SP/Lab/10/lab10_2.c.s
+.PHONY : SP/Lab/10/lab10_2.c.s
+
+SP/Lab/10/lab10_3.obj: SP/Lab/10/lab10_3.c.obj
+.PHONY : SP/Lab/10/lab10_3.obj
+
+# target to build an object file
+SP/Lab/10/lab10_3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_3.dir\build.make CMakeFiles/lab10_3.dir/SP/Lab/10/lab10_3.c.obj
+.PHONY : SP/Lab/10/lab10_3.c.obj
+
+SP/Lab/10/lab10_3.i: SP/Lab/10/lab10_3.c.i
+.PHONY : SP/Lab/10/lab10_3.i
+
+# target to preprocess a source file
+SP/Lab/10/lab10_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_3.dir\build.make CMakeFiles/lab10_3.dir/SP/Lab/10/lab10_3.c.i
+.PHONY : SP/Lab/10/lab10_3.c.i
+
+SP/Lab/10/lab10_3.s: SP/Lab/10/lab10_3.c.s
+.PHONY : SP/Lab/10/lab10_3.s
+
+# target to generate assembly for a file
+SP/Lab/10/lab10_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10_3.dir\build.make CMakeFiles/lab10_3.dir/SP/Lab/10/lab10_3.c.s
+.PHONY : SP/Lab/10/lab10_3.c.s
 
 SP/Lab/2/lab2_1.obj: SP/Lab/2/lab2_1.c.obj
 .PHONY : SP/Lab/2/lab2_1.obj
@@ -1656,6 +2014,54 @@ SP/Vezbi_II_Kol/2-1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-1.dir\build.make CMakeFiles/2-1.dir/SP/Vezbi_II_Kol/2-1.c.s
 .PHONY : SP/Vezbi_II_Kol/2-1.c.s
 
+SP/Vezbi_II_Kol/2-10.obj: SP/Vezbi_II_Kol/2-10.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-10.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/2-10.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-10.dir\build.make CMakeFiles/2-10.dir/SP/Vezbi_II_Kol/2-10.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-10.c.obj
+
+SP/Vezbi_II_Kol/2-10.i: SP/Vezbi_II_Kol/2-10.c.i
+.PHONY : SP/Vezbi_II_Kol/2-10.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/2-10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-10.dir\build.make CMakeFiles/2-10.dir/SP/Vezbi_II_Kol/2-10.c.i
+.PHONY : SP/Vezbi_II_Kol/2-10.c.i
+
+SP/Vezbi_II_Kol/2-10.s: SP/Vezbi_II_Kol/2-10.c.s
+.PHONY : SP/Vezbi_II_Kol/2-10.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/2-10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-10.dir\build.make CMakeFiles/2-10.dir/SP/Vezbi_II_Kol/2-10.c.s
+.PHONY : SP/Vezbi_II_Kol/2-10.c.s
+
+SP/Vezbi_II_Kol/2-11.obj: SP/Vezbi_II_Kol/2-11.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-11.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/2-11.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-11.dir\build.make CMakeFiles/2-11.dir/SP/Vezbi_II_Kol/2-11.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-11.c.obj
+
+SP/Vezbi_II_Kol/2-11.i: SP/Vezbi_II_Kol/2-11.c.i
+.PHONY : SP/Vezbi_II_Kol/2-11.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/2-11.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-11.dir\build.make CMakeFiles/2-11.dir/SP/Vezbi_II_Kol/2-11.c.i
+.PHONY : SP/Vezbi_II_Kol/2-11.c.i
+
+SP/Vezbi_II_Kol/2-11.s: SP/Vezbi_II_Kol/2-11.c.s
+.PHONY : SP/Vezbi_II_Kol/2-11.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/2-11.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-11.dir\build.make CMakeFiles/2-11.dir/SP/Vezbi_II_Kol/2-11.c.s
+.PHONY : SP/Vezbi_II_Kol/2-11.c.s
+
 SP/Vezbi_II_Kol/2-12.obj: SP/Vezbi_II_Kol/2-12.c.obj
 .PHONY : SP/Vezbi_II_Kol/2-12.obj
 
@@ -1728,6 +2134,30 @@ SP/Vezbi_II_Kol/2-14.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-14.dir\build.make CMakeFiles/2-14.dir/SP/Vezbi_II_Kol/2-14.c.s
 .PHONY : SP/Vezbi_II_Kol/2-14.c.s
 
+SP/Vezbi_II_Kol/2-15.obj: SP/Vezbi_II_Kol/2-15.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-15.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/2-15.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-15.dir\build.make CMakeFiles/2-15.dir/SP/Vezbi_II_Kol/2-15.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-15.c.obj
+
+SP/Vezbi_II_Kol/2-15.i: SP/Vezbi_II_Kol/2-15.c.i
+.PHONY : SP/Vezbi_II_Kol/2-15.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/2-15.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-15.dir\build.make CMakeFiles/2-15.dir/SP/Vezbi_II_Kol/2-15.c.i
+.PHONY : SP/Vezbi_II_Kol/2-15.c.i
+
+SP/Vezbi_II_Kol/2-15.s: SP/Vezbi_II_Kol/2-15.c.s
+.PHONY : SP/Vezbi_II_Kol/2-15.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/2-15.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-15.dir\build.make CMakeFiles/2-15.dir/SP/Vezbi_II_Kol/2-15.c.s
+.PHONY : SP/Vezbi_II_Kol/2-15.c.s
+
 SP/Vezbi_II_Kol/2-16.obj: SP/Vezbi_II_Kol/2-16.c.obj
 .PHONY : SP/Vezbi_II_Kol/2-16.obj
 
@@ -1775,6 +2205,54 @@ SP/Vezbi_II_Kol/2-17.s: SP/Vezbi_II_Kol/2-17.c.s
 SP/Vezbi_II_Kol/2-17.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-17.dir\build.make CMakeFiles/2-17.dir/SP/Vezbi_II_Kol/2-17.c.s
 .PHONY : SP/Vezbi_II_Kol/2-17.c.s
+
+SP/Vezbi_II_Kol/2-18.obj: SP/Vezbi_II_Kol/2-18.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-18.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/2-18.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-18.dir\build.make CMakeFiles/2-18.dir/SP/Vezbi_II_Kol/2-18.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-18.c.obj
+
+SP/Vezbi_II_Kol/2-18.i: SP/Vezbi_II_Kol/2-18.c.i
+.PHONY : SP/Vezbi_II_Kol/2-18.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/2-18.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-18.dir\build.make CMakeFiles/2-18.dir/SP/Vezbi_II_Kol/2-18.c.i
+.PHONY : SP/Vezbi_II_Kol/2-18.c.i
+
+SP/Vezbi_II_Kol/2-18.s: SP/Vezbi_II_Kol/2-18.c.s
+.PHONY : SP/Vezbi_II_Kol/2-18.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/2-18.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-18.dir\build.make CMakeFiles/2-18.dir/SP/Vezbi_II_Kol/2-18.c.s
+.PHONY : SP/Vezbi_II_Kol/2-18.c.s
+
+SP/Vezbi_II_Kol/2-19.obj: SP/Vezbi_II_Kol/2-19.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-19.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/2-19.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-19.dir\build.make CMakeFiles/2-19.dir/SP/Vezbi_II_Kol/2-19.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-19.c.obj
+
+SP/Vezbi_II_Kol/2-19.i: SP/Vezbi_II_Kol/2-19.c.i
+.PHONY : SP/Vezbi_II_Kol/2-19.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/2-19.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-19.dir\build.make CMakeFiles/2-19.dir/SP/Vezbi_II_Kol/2-19.c.i
+.PHONY : SP/Vezbi_II_Kol/2-19.c.i
+
+SP/Vezbi_II_Kol/2-19.s: SP/Vezbi_II_Kol/2-19.c.s
+.PHONY : SP/Vezbi_II_Kol/2-19.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/2-19.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-19.dir\build.make CMakeFiles/2-19.dir/SP/Vezbi_II_Kol/2-19.c.s
+.PHONY : SP/Vezbi_II_Kol/2-19.c.s
 
 SP/Vezbi_II_Kol/2-2.obj: SP/Vezbi_II_Kol/2-2.c.obj
 .PHONY : SP/Vezbi_II_Kol/2-2.obj
@@ -1919,6 +2397,342 @@ SP/Vezbi_II_Kol/2-7.s: SP/Vezbi_II_Kol/2-7.c.s
 SP/Vezbi_II_Kol/2-7.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-7.dir\build.make CMakeFiles/2-7.dir/SP/Vezbi_II_Kol/2-7.c.s
 .PHONY : SP/Vezbi_II_Kol/2-7.c.s
+
+SP/Vezbi_II_Kol/2-8.obj: SP/Vezbi_II_Kol/2-8.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-8.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/2-8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-8.dir\build.make CMakeFiles/2-8.dir/SP/Vezbi_II_Kol/2-8.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-8.c.obj
+
+SP/Vezbi_II_Kol/2-8.i: SP/Vezbi_II_Kol/2-8.c.i
+.PHONY : SP/Vezbi_II_Kol/2-8.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/2-8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-8.dir\build.make CMakeFiles/2-8.dir/SP/Vezbi_II_Kol/2-8.c.i
+.PHONY : SP/Vezbi_II_Kol/2-8.c.i
+
+SP/Vezbi_II_Kol/2-8.s: SP/Vezbi_II_Kol/2-8.c.s
+.PHONY : SP/Vezbi_II_Kol/2-8.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/2-8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-8.dir\build.make CMakeFiles/2-8.dir/SP/Vezbi_II_Kol/2-8.c.s
+.PHONY : SP/Vezbi_II_Kol/2-8.c.s
+
+SP/Vezbi_II_Kol/2-9.obj: SP/Vezbi_II_Kol/2-9.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-9.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/2-9.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-9.dir\build.make CMakeFiles/2-9.dir/SP/Vezbi_II_Kol/2-9.c.obj
+.PHONY : SP/Vezbi_II_Kol/2-9.c.obj
+
+SP/Vezbi_II_Kol/2-9.i: SP/Vezbi_II_Kol/2-9.c.i
+.PHONY : SP/Vezbi_II_Kol/2-9.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/2-9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-9.dir\build.make CMakeFiles/2-9.dir/SP/Vezbi_II_Kol/2-9.c.i
+.PHONY : SP/Vezbi_II_Kol/2-9.c.i
+
+SP/Vezbi_II_Kol/2-9.s: SP/Vezbi_II_Kol/2-9.c.s
+.PHONY : SP/Vezbi_II_Kol/2-9.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/2-9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2-9.dir\build.make CMakeFiles/2-9.dir/SP/Vezbi_II_Kol/2-9.c.s
+.PHONY : SP/Vezbi_II_Kol/2-9.c.s
+
+SP/Vezbi_II_Kol/add2-1.obj: SP/Vezbi_II_Kol/add2-1.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-1.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/add2-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-1.dir\build.make CMakeFiles/add2-1.dir/SP/Vezbi_II_Kol/add2-1.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-1.c.obj
+
+SP/Vezbi_II_Kol/add2-1.i: SP/Vezbi_II_Kol/add2-1.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-1.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/add2-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-1.dir\build.make CMakeFiles/add2-1.dir/SP/Vezbi_II_Kol/add2-1.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-1.c.i
+
+SP/Vezbi_II_Kol/add2-1.s: SP/Vezbi_II_Kol/add2-1.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-1.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/add2-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-1.dir\build.make CMakeFiles/add2-1.dir/SP/Vezbi_II_Kol/add2-1.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-1.c.s
+
+SP/Vezbi_II_Kol/add2-10.obj: SP/Vezbi_II_Kol/add2-10.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-10.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/add2-10.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-10.dir\build.make CMakeFiles/add2-10.dir/SP/Vezbi_II_Kol/add2-10.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-10.c.obj
+
+SP/Vezbi_II_Kol/add2-10.i: SP/Vezbi_II_Kol/add2-10.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-10.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/add2-10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-10.dir\build.make CMakeFiles/add2-10.dir/SP/Vezbi_II_Kol/add2-10.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-10.c.i
+
+SP/Vezbi_II_Kol/add2-10.s: SP/Vezbi_II_Kol/add2-10.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-10.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/add2-10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-10.dir\build.make CMakeFiles/add2-10.dir/SP/Vezbi_II_Kol/add2-10.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-10.c.s
+
+SP/Vezbi_II_Kol/add2-2.obj: SP/Vezbi_II_Kol/add2-2.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-2.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/add2-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-2.dir\build.make CMakeFiles/add2-2.dir/SP/Vezbi_II_Kol/add2-2.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-2.c.obj
+
+SP/Vezbi_II_Kol/add2-2.i: SP/Vezbi_II_Kol/add2-2.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-2.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/add2-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-2.dir\build.make CMakeFiles/add2-2.dir/SP/Vezbi_II_Kol/add2-2.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-2.c.i
+
+SP/Vezbi_II_Kol/add2-2.s: SP/Vezbi_II_Kol/add2-2.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-2.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/add2-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-2.dir\build.make CMakeFiles/add2-2.dir/SP/Vezbi_II_Kol/add2-2.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-2.c.s
+
+SP/Vezbi_II_Kol/add2-3.obj: SP/Vezbi_II_Kol/add2-3.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-3.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/add2-3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-3.dir\build.make CMakeFiles/add2-3.dir/SP/Vezbi_II_Kol/add2-3.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-3.c.obj
+
+SP/Vezbi_II_Kol/add2-3.i: SP/Vezbi_II_Kol/add2-3.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-3.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/add2-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-3.dir\build.make CMakeFiles/add2-3.dir/SP/Vezbi_II_Kol/add2-3.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-3.c.i
+
+SP/Vezbi_II_Kol/add2-3.s: SP/Vezbi_II_Kol/add2-3.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-3.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/add2-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-3.dir\build.make CMakeFiles/add2-3.dir/SP/Vezbi_II_Kol/add2-3.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-3.c.s
+
+SP/Vezbi_II_Kol/add2-4.obj: SP/Vezbi_II_Kol/add2-4.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-4.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/add2-4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-4.dir\build.make CMakeFiles/add2-4.dir/SP/Vezbi_II_Kol/add2-4.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-4.c.obj
+
+SP/Vezbi_II_Kol/add2-4.i: SP/Vezbi_II_Kol/add2-4.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-4.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/add2-4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-4.dir\build.make CMakeFiles/add2-4.dir/SP/Vezbi_II_Kol/add2-4.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-4.c.i
+
+SP/Vezbi_II_Kol/add2-4.s: SP/Vezbi_II_Kol/add2-4.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-4.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/add2-4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-4.dir\build.make CMakeFiles/add2-4.dir/SP/Vezbi_II_Kol/add2-4.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-4.c.s
+
+SP/Vezbi_II_Kol/add2-5.obj: SP/Vezbi_II_Kol/add2-5.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-5.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/add2-5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-5.dir\build.make CMakeFiles/add2-5.dir/SP/Vezbi_II_Kol/add2-5.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-5.c.obj
+
+SP/Vezbi_II_Kol/add2-5.i: SP/Vezbi_II_Kol/add2-5.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-5.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/add2-5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-5.dir\build.make CMakeFiles/add2-5.dir/SP/Vezbi_II_Kol/add2-5.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-5.c.i
+
+SP/Vezbi_II_Kol/add2-5.s: SP/Vezbi_II_Kol/add2-5.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-5.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/add2-5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-5.dir\build.make CMakeFiles/add2-5.dir/SP/Vezbi_II_Kol/add2-5.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-5.c.s
+
+SP/Vezbi_II_Kol/add2-6.obj: SP/Vezbi_II_Kol/add2-6.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-6.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/add2-6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-6.dir\build.make CMakeFiles/add2-6.dir/SP/Vezbi_II_Kol/add2-6.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-6.c.obj
+
+SP/Vezbi_II_Kol/add2-6.i: SP/Vezbi_II_Kol/add2-6.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-6.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/add2-6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-6.dir\build.make CMakeFiles/add2-6.dir/SP/Vezbi_II_Kol/add2-6.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-6.c.i
+
+SP/Vezbi_II_Kol/add2-6.s: SP/Vezbi_II_Kol/add2-6.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-6.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/add2-6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-6.dir\build.make CMakeFiles/add2-6.dir/SP/Vezbi_II_Kol/add2-6.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-6.c.s
+
+SP/Vezbi_II_Kol/add2-7.obj: SP/Vezbi_II_Kol/add2-7.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-7.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/add2-7.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-7.dir\build.make CMakeFiles/add2-7.dir/SP/Vezbi_II_Kol/add2-7.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-7.c.obj
+
+SP/Vezbi_II_Kol/add2-7.i: SP/Vezbi_II_Kol/add2-7.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-7.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/add2-7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-7.dir\build.make CMakeFiles/add2-7.dir/SP/Vezbi_II_Kol/add2-7.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-7.c.i
+
+SP/Vezbi_II_Kol/add2-7.s: SP/Vezbi_II_Kol/add2-7.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-7.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/add2-7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-7.dir\build.make CMakeFiles/add2-7.dir/SP/Vezbi_II_Kol/add2-7.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-7.c.s
+
+SP/Vezbi_II_Kol/add2-8.obj: SP/Vezbi_II_Kol/add2-8.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-8.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/add2-8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-8.dir\build.make CMakeFiles/add2-8.dir/SP/Vezbi_II_Kol/add2-8.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-8.c.obj
+
+SP/Vezbi_II_Kol/add2-8.i: SP/Vezbi_II_Kol/add2-8.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-8.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/add2-8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-8.dir\build.make CMakeFiles/add2-8.dir/SP/Vezbi_II_Kol/add2-8.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-8.c.i
+
+SP/Vezbi_II_Kol/add2-8.s: SP/Vezbi_II_Kol/add2-8.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-8.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/add2-8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-8.dir\build.make CMakeFiles/add2-8.dir/SP/Vezbi_II_Kol/add2-8.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-8.c.s
+
+SP/Vezbi_II_Kol/add2-9.obj: SP/Vezbi_II_Kol/add2-9.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-9.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/add2-9.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-9.dir\build.make CMakeFiles/add2-9.dir/SP/Vezbi_II_Kol/add2-9.c.obj
+.PHONY : SP/Vezbi_II_Kol/add2-9.c.obj
+
+SP/Vezbi_II_Kol/add2-9.i: SP/Vezbi_II_Kol/add2-9.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-9.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/add2-9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-9.dir\build.make CMakeFiles/add2-9.dir/SP/Vezbi_II_Kol/add2-9.c.i
+.PHONY : SP/Vezbi_II_Kol/add2-9.c.i
+
+SP/Vezbi_II_Kol/add2-9.s: SP/Vezbi_II_Kol/add2-9.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-9.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/add2-9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\add2-9.dir\build.make CMakeFiles/add2-9.dir/SP/Vezbi_II_Kol/add2-9.c.s
+.PHONY : SP/Vezbi_II_Kol/add2-9.c.s
+
+SP/Vezbi_II_Kol/ste1-2022.obj: SP/Vezbi_II_Kol/ste1-2022.c.obj
+.PHONY : SP/Vezbi_II_Kol/ste1-2022.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/ste1-2022.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ste1-2022.dir\build.make CMakeFiles/ste1-2022.dir/SP/Vezbi_II_Kol/ste1-2022.c.obj
+.PHONY : SP/Vezbi_II_Kol/ste1-2022.c.obj
+
+SP/Vezbi_II_Kol/ste1-2022.i: SP/Vezbi_II_Kol/ste1-2022.c.i
+.PHONY : SP/Vezbi_II_Kol/ste1-2022.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/ste1-2022.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ste1-2022.dir\build.make CMakeFiles/ste1-2022.dir/SP/Vezbi_II_Kol/ste1-2022.c.i
+.PHONY : SP/Vezbi_II_Kol/ste1-2022.c.i
+
+SP/Vezbi_II_Kol/ste1-2022.s: SP/Vezbi_II_Kol/ste1-2022.c.s
+.PHONY : SP/Vezbi_II_Kol/ste1-2022.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/ste1-2022.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ste1-2022.dir\build.make CMakeFiles/ste1-2022.dir/SP/Vezbi_II_Kol/ste1-2022.c.s
+.PHONY : SP/Vezbi_II_Kol/ste1-2022.c.s
+
+SP/Vezbi_II_Kol/ste2-2022.obj: SP/Vezbi_II_Kol/ste2-2022.c.obj
+.PHONY : SP/Vezbi_II_Kol/ste2-2022.obj
+
+# target to build an object file
+SP/Vezbi_II_Kol/ste2-2022.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ste2-2022.dir\build.make CMakeFiles/ste2-2022.dir/SP/Vezbi_II_Kol/ste2-2022.c.obj
+.PHONY : SP/Vezbi_II_Kol/ste2-2022.c.obj
+
+SP/Vezbi_II_Kol/ste2-2022.i: SP/Vezbi_II_Kol/ste2-2022.c.i
+.PHONY : SP/Vezbi_II_Kol/ste2-2022.i
+
+# target to preprocess a source file
+SP/Vezbi_II_Kol/ste2-2022.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ste2-2022.dir\build.make CMakeFiles/ste2-2022.dir/SP/Vezbi_II_Kol/ste2-2022.c.i
+.PHONY : SP/Vezbi_II_Kol/ste2-2022.c.i
+
+SP/Vezbi_II_Kol/ste2-2022.s: SP/Vezbi_II_Kol/ste2-2022.c.s
+.PHONY : SP/Vezbi_II_Kol/ste2-2022.s
+
+# target to generate assembly for a file
+SP/Vezbi_II_Kol/ste2-2022.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ste2-2022.dir\build.make CMakeFiles/ste2-2022.dir/SP/Vezbi_II_Kol/ste2-2022.c.s
+.PHONY : SP/Vezbi_II_Kol/ste2-2022.c.s
 
 SP/Vezbi_I_Kol/1.obj: SP/Vezbi_I_Kol/1.c.obj
 .PHONY : SP/Vezbi_I_Kol/1.obj
@@ -2537,17 +3351,24 @@ help:
 	@echo ... 15
 	@echo ... 2
 	@echo ... 2-1
+	@echo ... 2-10
+	@echo ... 2-11
 	@echo ... 2-12
 	@echo ... 2-13
 	@echo ... 2-14
+	@echo ... 2-15
 	@echo ... 2-16
 	@echo ... 2-17
+	@echo ... 2-18
+	@echo ... 2-19
 	@echo ... 2-2
 	@echo ... 2-3
 	@echo ... 2-4
 	@echo ... 2-5
 	@echo ... 2-6
 	@echo ... 2-7
+	@echo ... 2-8
+	@echo ... 2-9
 	@echo ... 3
 	@echo ... 4
 	@echo ... 5
@@ -2555,6 +3376,16 @@ help:
 	@echo ... 7
 	@echo ... 8
 	@echo ... 9
+	@echo ... add2-1
+	@echo ... add2-10
+	@echo ... add2-2
+	@echo ... add2-3
+	@echo ... add2-4
+	@echo ... add2-5
+	@echo ... add2-6
+	@echo ... add2-7
+	@echo ... add2-8
+	@echo ... add2-9
 	@echo ... additional1_1
 	@echo ... additional1_2
 	@echo ... additional1_3
@@ -2565,6 +3396,9 @@ help:
 	@echo ... kol1_2
 	@echo ... kol1_3
 	@echo ... kol1_4
+	@echo ... lab10_1
+	@echo ... lab10_2
+	@echo ... lab10_3
 	@echo ... lab1_1
 	@echo ... lab1_2
 	@echo ... lab1_3
@@ -2593,6 +3427,8 @@ help:
 	@echo ... lab9_1
 	@echo ... lab9_2
 	@echo ... lab9_3
+	@echo ... ste1-2022
+	@echo ... ste2-2022
 	@echo ... SP/Lab/1/lab1_1.obj
 	@echo ... SP/Lab/1/lab1_1.i
 	@echo ... SP/Lab/1/lab1_1.s
@@ -2602,6 +3438,15 @@ help:
 	@echo ... SP/Lab/1/lab1_3.obj
 	@echo ... SP/Lab/1/lab1_3.i
 	@echo ... SP/Lab/1/lab1_3.s
+	@echo ... SP/Lab/10/lab10_1.obj
+	@echo ... SP/Lab/10/lab10_1.i
+	@echo ... SP/Lab/10/lab10_1.s
+	@echo ... SP/Lab/10/lab10_2.obj
+	@echo ... SP/Lab/10/lab10_2.i
+	@echo ... SP/Lab/10/lab10_2.s
+	@echo ... SP/Lab/10/lab10_3.obj
+	@echo ... SP/Lab/10/lab10_3.i
+	@echo ... SP/Lab/10/lab10_3.s
 	@echo ... SP/Lab/2/lab2_1.obj
 	@echo ... SP/Lab/2/lab2_1.i
 	@echo ... SP/Lab/2/lab2_1.s
@@ -2680,6 +3525,12 @@ help:
 	@echo ... SP/Vezbi_II_Kol/2-1.obj
 	@echo ... SP/Vezbi_II_Kol/2-1.i
 	@echo ... SP/Vezbi_II_Kol/2-1.s
+	@echo ... SP/Vezbi_II_Kol/2-10.obj
+	@echo ... SP/Vezbi_II_Kol/2-10.i
+	@echo ... SP/Vezbi_II_Kol/2-10.s
+	@echo ... SP/Vezbi_II_Kol/2-11.obj
+	@echo ... SP/Vezbi_II_Kol/2-11.i
+	@echo ... SP/Vezbi_II_Kol/2-11.s
 	@echo ... SP/Vezbi_II_Kol/2-12.obj
 	@echo ... SP/Vezbi_II_Kol/2-12.i
 	@echo ... SP/Vezbi_II_Kol/2-12.s
@@ -2689,12 +3540,21 @@ help:
 	@echo ... SP/Vezbi_II_Kol/2-14.obj
 	@echo ... SP/Vezbi_II_Kol/2-14.i
 	@echo ... SP/Vezbi_II_Kol/2-14.s
+	@echo ... SP/Vezbi_II_Kol/2-15.obj
+	@echo ... SP/Vezbi_II_Kol/2-15.i
+	@echo ... SP/Vezbi_II_Kol/2-15.s
 	@echo ... SP/Vezbi_II_Kol/2-16.obj
 	@echo ... SP/Vezbi_II_Kol/2-16.i
 	@echo ... SP/Vezbi_II_Kol/2-16.s
 	@echo ... SP/Vezbi_II_Kol/2-17.obj
 	@echo ... SP/Vezbi_II_Kol/2-17.i
 	@echo ... SP/Vezbi_II_Kol/2-17.s
+	@echo ... SP/Vezbi_II_Kol/2-18.obj
+	@echo ... SP/Vezbi_II_Kol/2-18.i
+	@echo ... SP/Vezbi_II_Kol/2-18.s
+	@echo ... SP/Vezbi_II_Kol/2-19.obj
+	@echo ... SP/Vezbi_II_Kol/2-19.i
+	@echo ... SP/Vezbi_II_Kol/2-19.s
 	@echo ... SP/Vezbi_II_Kol/2-2.obj
 	@echo ... SP/Vezbi_II_Kol/2-2.i
 	@echo ... SP/Vezbi_II_Kol/2-2.s
@@ -2713,6 +3573,48 @@ help:
 	@echo ... SP/Vezbi_II_Kol/2-7.obj
 	@echo ... SP/Vezbi_II_Kol/2-7.i
 	@echo ... SP/Vezbi_II_Kol/2-7.s
+	@echo ... SP/Vezbi_II_Kol/2-8.obj
+	@echo ... SP/Vezbi_II_Kol/2-8.i
+	@echo ... SP/Vezbi_II_Kol/2-8.s
+	@echo ... SP/Vezbi_II_Kol/2-9.obj
+	@echo ... SP/Vezbi_II_Kol/2-9.i
+	@echo ... SP/Vezbi_II_Kol/2-9.s
+	@echo ... SP/Vezbi_II_Kol/add2-1.obj
+	@echo ... SP/Vezbi_II_Kol/add2-1.i
+	@echo ... SP/Vezbi_II_Kol/add2-1.s
+	@echo ... SP/Vezbi_II_Kol/add2-10.obj
+	@echo ... SP/Vezbi_II_Kol/add2-10.i
+	@echo ... SP/Vezbi_II_Kol/add2-10.s
+	@echo ... SP/Vezbi_II_Kol/add2-2.obj
+	@echo ... SP/Vezbi_II_Kol/add2-2.i
+	@echo ... SP/Vezbi_II_Kol/add2-2.s
+	@echo ... SP/Vezbi_II_Kol/add2-3.obj
+	@echo ... SP/Vezbi_II_Kol/add2-3.i
+	@echo ... SP/Vezbi_II_Kol/add2-3.s
+	@echo ... SP/Vezbi_II_Kol/add2-4.obj
+	@echo ... SP/Vezbi_II_Kol/add2-4.i
+	@echo ... SP/Vezbi_II_Kol/add2-4.s
+	@echo ... SP/Vezbi_II_Kol/add2-5.obj
+	@echo ... SP/Vezbi_II_Kol/add2-5.i
+	@echo ... SP/Vezbi_II_Kol/add2-5.s
+	@echo ... SP/Vezbi_II_Kol/add2-6.obj
+	@echo ... SP/Vezbi_II_Kol/add2-6.i
+	@echo ... SP/Vezbi_II_Kol/add2-6.s
+	@echo ... SP/Vezbi_II_Kol/add2-7.obj
+	@echo ... SP/Vezbi_II_Kol/add2-7.i
+	@echo ... SP/Vezbi_II_Kol/add2-7.s
+	@echo ... SP/Vezbi_II_Kol/add2-8.obj
+	@echo ... SP/Vezbi_II_Kol/add2-8.i
+	@echo ... SP/Vezbi_II_Kol/add2-8.s
+	@echo ... SP/Vezbi_II_Kol/add2-9.obj
+	@echo ... SP/Vezbi_II_Kol/add2-9.i
+	@echo ... SP/Vezbi_II_Kol/add2-9.s
+	@echo ... SP/Vezbi_II_Kol/ste1-2022.obj
+	@echo ... SP/Vezbi_II_Kol/ste1-2022.i
+	@echo ... SP/Vezbi_II_Kol/ste1-2022.s
+	@echo ... SP/Vezbi_II_Kol/ste2-2022.obj
+	@echo ... SP/Vezbi_II_Kol/ste2-2022.i
+	@echo ... SP/Vezbi_II_Kol/ste2-2022.s
 	@echo ... SP/Vezbi_I_Kol/1.obj
 	@echo ... SP/Vezbi_I_Kol/1.i
 	@echo ... SP/Vezbi_I_Kol/1.s

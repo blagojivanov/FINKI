@@ -13,7 +13,7 @@
 
 int main()
 {
-    float a[MAX][MAX], b[MAX][MAX], x = 0, y = 0;
+    float a[MAX][MAX], b[MAX][MAX] = {0}, x = 0, y = 0;
     int n,i,j;
     scanf("%d", &n);
     for (i = 0; i<n; i++)
@@ -23,5 +23,43 @@ int main()
             scanf("%f", &a[i][j]);
         }
     }
+    for (i = 1; i<n; i++)
+    {
+        for (j = 0; j<i; j++)
+        {
+            x+=a[i][j];
+        }
+    }
+    for (i = 1; i<n; i++)
+    {
+        for (j = n-1; j>n-i-1; j--)
+        {
+            y+=a[i][j];
+        }
+    }
+    for (i = 0; i<n; i++)
+    {
+        for (j = 0; j<n; j++)
+        {
+            if (i == j)
+            {
+                b[i][j] += x;
+            }
+            if (i == n-j-1)
+            {
+                b[i][j] += y;
+            }
+        }
+    }
 
+    for (i = 0; i<n; i++)
+    {
+        for (j = 0; j<n; j++)
+        {
+            printf("%.1f ", b[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
 }

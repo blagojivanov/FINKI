@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.obj: CMakeFiles/15.dir/flags.make
 CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.obj: C:/Users/Blagoj/CLionProjects/FINKI/SP/Vezbi_I_Kol/15.c
 CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.obj: CMakeFiles/15.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Blagoj\CLionProjects\FINKI\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.obj"
-	C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.obj -MF CMakeFiles\15.dir\SP\Vezbi_I_Kol\15.c.obj.d -o CMakeFiles\15.dir\SP\Vezbi_I_Kol\15.c.obj -c C:\Users\Blagoj\CLionProjects\FINKI\SP\Vezbi_I_Kol\15.c
+	C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.obj -MF CMakeFiles\15.dir\SP\Vezbi_I_Kol\15.c.obj.d -o CMakeFiles\15.dir\SP\Vezbi_I_Kol\15.c.obj -c C:\Users\Blagoj\CLionProjects\FINKI\SP\Vezbi_I_Kol\15.c
 
 CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.i"
-	C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Blagoj\CLionProjects\FINKI\SP\Vezbi_I_Kol\15.c > CMakeFiles\15.dir\SP\Vezbi_I_Kol\15.c.i
+	C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Blagoj\CLionProjects\FINKI\SP\Vezbi_I_Kol\15.c > CMakeFiles\15.dir\SP\Vezbi_I_Kol\15.c.i
 
 CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/15.dir/SP/Vezbi_I_Kol/15.c.s"
-	C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Blagoj\CLionProjects\FINKI\SP\Vezbi_I_Kol\15.c -o CMakeFiles\15.dir\SP\Vezbi_I_Kol\15.c.s
+	C:\Users\Blagoj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Blagoj\CLionProjects\FINKI\SP\Vezbi_I_Kol\15.c -o CMakeFiles\15.dir\SP\Vezbi_I_Kol\15.c.s
 
 # Object files for target 15
 15_OBJECTS = \
