@@ -40,7 +40,7 @@ private:
     int age;
     char *major;
 public:
-    //same
+
     Student(const char *name = "\0", int age = 0,const char *major = "\0") {
         this->name = new char[strlen(name) + 1];
         strcpy(this->name, name);
@@ -51,7 +51,7 @@ public:
         this->major[strlen(major)] = '\0';
 
     }
-//same
+
     Student(const Student &o) {
         this->name = new char[strlen(o.name) + 1];
         strcpy(this->name, o.name);
