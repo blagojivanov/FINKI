@@ -214,6 +214,7 @@ public:
                 temp[i] = lists[i];
             }
             temp[n++] = l;
+            delete [] lists;
             lists = temp;
         }
     }
