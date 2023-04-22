@@ -63,7 +63,7 @@ public:
         return age;
     }
 
-    bool sporedi(const Ucesnik &u)
+    bool operator>(const Ucesnik &u) const
     {
         if (age >= u.age)
         {
@@ -74,12 +74,12 @@ public:
         }
     }
 
-    void print()
+    friend ostream &operator<<(ostream &out, const Ucesnik &u)
     {
-            cout<<name<<endl;
-            if (gender == 0) cout<< "zhenski";
-            else cout<<"mashki";
-            cout<<"\n"<<age<<endl;
+            out<<u.name<<endl;
+            if (u.gender == 0) out<< "zhenski";
+            else out<<"mashki";
+            out<<"\n"<<u.age<<endl;
     }
     ~Ucesnik()
     {
@@ -136,7 +136,7 @@ public:
         delete [] ucesnici;
     }
 
-    void add(const Ucesnik &u)
+    Maraton &operator+=(const Ucesnik &u)
     {
         Ucesnik *temp = new Ucesnik[n+1];
         for (int i = 0; i < n; i++)
@@ -146,6 +146,7 @@ public:
         temp[n++] = u;
         delete [] ucesnici;
         ucesnici = temp;
+        return *this;
     }
     float prosecnoVozrast()
     {
@@ -161,16 +162,15 @@ public:
     {
         for (int i = 0; i<n; i++)
         {
-            if (ucesnici[i].sporedi(u) == false)
+            if ((ucesnici[i]>u) == false)
             {
-                ucesnici[i].print();
+                cout<<ucesnici[i];
             }
         }
     }
 };
 
-int main() {
-    char ime[100];
+int main() {char ime[100];
     bool maski;
     int vozrast, n;
     cin >> n;
@@ -181,7 +181,7 @@ int main() {
     for(int i = 0; i < n; ++i) {
         cin >> ime >> maski >> vozrast;
         u[i] = new Ucesnik(ime, maski, vozrast);
-        m.add(*u[i]);
+        m += *u[i];
     }
     m.pecatiPomladi(*u[n - 1]);
     cout << m.prosecnoVozrast() << endl;
