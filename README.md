@@ -11,3 +11,9 @@
 - [Лабораториски вежби](https://github.com/biv2101/FINKI/tree/main/OOP/Lab)
 - [Вежби за прв колоквиум](https://github.com/biv2101/FINKI/tree/main/OOP/Vezbi_I_Kol)
 - [Вежби за втор колоквиум/испит](https://github.com/biv2101/FINKI/tree/main/OOP/Vezbi_II_Kol)
+
+**АЛГОРИТМИ И ПОДАТОЧНИ СТРУКТУРИ**
+
+**НАПРЕДНО ПРОГРАМИРАЊЕ**
+
+**ИНТЕРНЕТ ПРОГРАМИРАЊЕ НА КЛИЕНТСКА СТРАНА**
