@@ -40,6 +40,7 @@ final class IntegerArray {
         return new IntegerArray(sarr);
     }
 
+    //lambda ??
     public IntegerArray concat(IntegerArray ia) {
         int[] narr = new int[leng + ia.length()];
         for (int i = 0; i < leng; i++) {

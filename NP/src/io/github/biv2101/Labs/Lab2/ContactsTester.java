@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 enum Operator {VIP, ONE, TMOBILE}
 
@@ -98,6 +99,7 @@ class Student {
     private int age;
     private long index;
 
+    // dali biva vaka da bide so lista a ne so niza
     private List<Contact> contacts;
 
     public Student(String firstName, String lastName, String city, int age, long index) {
@@ -131,35 +133,35 @@ class Student {
 
     public Contact[] getEmailContacts() {
         List<Contact> emails = new ArrayList<>();
-        for (Contact c : contacts)
-        {
-            if (c.getType() == "Email")
-            {
+        for (Contact c : contacts) {
+            if (c.getType() == "Email") {
                 emails.add(c);
             }
         }
+        // da vrne niza
         return emails.toArray(new Contact[emails.size()]);
     }
 
 
     public Contact[] getPhoneContacts() {
         List<Contact> phones = new ArrayList<>();
-        for (Contact c : contacts)
-        {
-            if (c.getType() == "Phone")
-            {
+        for (Contact c : contacts) {
+            if (c.getType() == "Phone") {
                 phones.add(c);
             }
         }
+        //da vrne niza
         return phones.toArray(new Contact[phones.size()]);
     }
 
     public Contact getLatestContact() {
         Contact lc = contacts.get(0);
-        for (Contact c : contacts)
-        {
-            if (c.isNewerThan(lc))
-            {
+        // da se reshe so lambda?
+//        contacts.stream().forEach(contact -> {
+//            if()
+//        });
+        for (Contact c : contacts) {
+            if (c.isNewerThan(lc)) {
                 lc = c;
             }
         }
@@ -169,24 +171,22 @@ class Student {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("{\"ime\":\"").append(firstName).append("\", \"prezime\":\"").append(lastName).append("\", \"vozrast\":").append(age).append(", \"grad\":\"").append(city).append("\", \"indeks\":").append(index).append(", \"telefonskiKontakti\":[");
-        for (int i = 0; i<getPhoneContacts().length; i++)
-        {
-            sb.append(getPhoneContacts()[i]);
-            if (i<getPhoneContacts().length-1)
-            {
-                sb.append(", ");
-            }
-        }
+        sb.append("{\"ime\":\"").append(firstName)
+                .append("\", \"prezime\":\"").append(lastName)
+                .append("\", \"vozrast\":").append(age)
+                .append(", \"grad\":\"").append(city)
+                .append("\", \"indeks\":").append(index)
+                .append(", \"telefonskiKontakti\":[");
+
+        IntStream.range(0, getPhoneContacts().length - 1).forEach(i -> sb.append(getPhoneContacts()[i]).append(", "));
+        if (getPhoneContacts().length > 0)
+            sb.append(getPhoneContacts()[getPhoneContacts().length - 1]);
+
         sb.append("]").append(", \"emailKontakti\":[");
-        for (int i = 0; i<getEmailContacts().length; i++)
-        {
-            sb.append(getEmailContacts()[i]);
-            if (i<getEmailContacts().length-1)
-            {
-                sb.append(", ");
-            }
-        }
+        IntStream.range(0, getEmailContacts().length - 1).forEach(i -> sb.append(getEmailContacts()[i]).append(", "));
+        if (getEmailContacts().length > 0)
+            sb.append(getEmailContacts()[getEmailContacts().length - 1]);
+
         sb.append("]}");
         return sb.toString();
     }
@@ -202,14 +202,16 @@ class Faculty {
         this.students = students;
     }
 
+    // okej?
     public int countStudentsFromCity(String city) {
-        int ct = 0;
-        for (Student s : students) {
-            if (s.getCity().equals(city)) ct++;
-        }
-        return ct;
+        return (int) Arrays.stream(students).filter(s -> s.getCity().equals(city)).count();
+//        for (Student s : students) {
+//            if (s.getCity().equals(city)) ct++;
+//        }
+//        return ct;
     }
 
+    //lambda ??
     public Student getStudent(long index) {
         Student s = null;
         for (Student st : students) {
@@ -222,18 +224,17 @@ class Faculty {
     }
 
     public double getAverageNumberOfContacts() {
-        double sum = Arrays.stream(students).mapToDouble(s -> s.getEmailContacts().length + s.getPhoneContacts().length).sum();
-        return sum / (students.length);
+        return Arrays.stream(students).mapToDouble(s -> s.getEmailContacts().length + s.getPhoneContacts().length).average().getAsDouble();
     }
 
+    //mislam deka nema da mozhe
     public Student getStudentWithMostContacts() {
         Student maxSt = students[0];
         for (Student s : students) {
             if (maxSt.getPhoneContacts().length + maxSt.getEmailContacts().length < s.getEmailContacts().length + s.getPhoneContacts().length) {
                 maxSt = s;
             } else if (maxSt.getPhoneContacts().length + maxSt.getEmailContacts().length == s.getEmailContacts().length + s.getPhoneContacts().length) {
-                if (maxSt.getIndex() < s.getIndex())
-                {
+                if (maxSt.getIndex() < s.getIndex()) {
                     maxSt = s;
                 }
             }
@@ -245,11 +246,9 @@ class Faculty {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("{\"fakultet\":\"").append(name).append("\", \"studenti\":[");
-        for (int i = 0; i<students.length; i++)
-        {
+        for (int i = 0; i < students.length; i++) {
             sb.append(students[i]);
-            if (i < students.length-1)
-            {
+            if (i < students.length - 1) {
                 sb.append(", ");
             }
         }

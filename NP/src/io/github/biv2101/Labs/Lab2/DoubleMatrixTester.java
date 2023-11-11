@@ -1,12 +1,9 @@
 package io.github.biv2101.Labs.Lab2;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.text.DecimalFormat;
-import java.util.Arrays;
-import java.util.Objects;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.DoubleStream;
 
 
@@ -40,9 +37,9 @@ final class DoubleMatrix {
         if (a.length < m * n) {
             throw new InsufficientElementsException();
         } else {
-            int act = a.length-1;
-            for (int i = m-1; i >= 0 && act >= a.length - m*n; i--) {
-                for (int j = n-1; j >=0 && act >= a.length - m*n; j--) {
+            int act = a.length - 1;
+            for (int i = m - 1; i >= 0 && act >= a.length - m * n; i--) {
+                for (int j = n - 1; j >= 0 && act >= a.length - m * n; j--) {
                     this.a[i][j] = a[act--];
                 }
             }
@@ -50,7 +47,7 @@ final class DoubleMatrix {
     }
 
     public String getDimensions() {
-        return "[" + m + " x " + n +"]";
+        return "[" + m + " x " + n + "]";
     }
 
     public int rows() {
@@ -63,30 +60,23 @@ final class DoubleMatrix {
 
     public double maxElementAtRow(int row) throws InvalidRowNumberException {
         if (row > rows() || row < 1) throw new InvalidRowNumberException();
-        double max = a[row-1][0];
-        for (int i = 1; i<n; i++) {
-            if (max < a[row-1][i])
-            {
-                max = a[row-1][i];
-            }
-        }
-        return max;
+        return DoubleStream.of(a[row - 1]).max().getAsDouble();
     }
 
     public double maxElementAtColumn(int column) throws InvalidColumnNumberException {
         if (column > columns() || column < 1) throw new InvalidColumnNumberException();
-        double max = a[0][column-1];
+        double max = a[0][column - 1];
         for (int i = 1; i < m; i++) {
-            if (max < a[i][column-1]) {
-                max = a[i][column-1];
+            if (max < a[i][column - 1]) {
+                max = a[i][column - 1];
             }
         }
         return max;
     }
 
+    //prashaj za reshenie
     public double sum() {
-        DoubleStream ds = Arrays.stream(a).flatMapToDouble(Arrays::stream);
-        return ds.sum();
+        return Arrays.stream(a).flatMapToDouble(array -> Arrays.stream(array)).sum();
     }
 
     public double[] toSortedArray() {
@@ -98,30 +88,28 @@ final class DoubleMatrix {
             }
         }
         Arrays.sort(sorted);
-        for (int i = 0; i<sct/2; i++)
-        {
+
+        //sort in descending??
+        for (int i = 0; i < sct / 2; i++) {
             double temp = sorted[i];
             sorted[i] = sorted[sorted.length - 1 - i];
             sorted[sorted.length - 1 - i] = temp;
         }
+
         return sorted;
     }
 
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i<m; i++)
-        {
-            for (int j = 0; j<n; j++)
-            {
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
                 sb.append(String.format("%.2f", a[i][j]));
-                if (j<n-1)
-                {
+                if (j < n - 1) {
                     sb.append("\t");
                 }
             }
-            if (i<m-1)
-            {
+            if (i < m - 1) {
                 sb.append("\n");
             }
         }
@@ -150,6 +138,8 @@ class MatrixReader {
         int m = sc.nextInt();
         int n = sc.nextInt();
         double[] f = new double[m * n];
+        //pagja kaj chitanje
+//        Arrays.stream(f).forEach(i->sc.nextDouble());
         for (int i = 0; i < m * n; i++) {
             f[i] = sc.nextDouble();
         }
