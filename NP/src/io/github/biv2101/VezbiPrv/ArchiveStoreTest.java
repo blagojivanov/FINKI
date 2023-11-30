@@ -21,7 +21,7 @@ class NonExistingItemException extends Exception {
     }
 }
 
-class Archive {
+abstract class Archive {
     protected int id;
     protected LocalDate dateArchived;
 
@@ -36,6 +36,9 @@ class Archive {
     public int getId() {
         return id;
     }
+
+    abstract public String open(LocalDate date);
+
 }
 
 class LockedArchive extends Archive {
@@ -48,6 +51,15 @@ class LockedArchive extends Archive {
 
     public LocalDate getDateToOpen() {
         return dateToOpen;
+    }
+
+    @Override
+    public String open(LocalDate date) {
+        if (date.compareTo(getDateToOpen()) >= 0) {
+            return String.format("Item %d opened at %d-%02d-%02d", getId(), date.getYear(), date.getMonthValue(), date.getDayOfMonth());
+        } else {
+            return String.format("Item %d cannot be opened before %d-%02d-%02d", getId(), getDateToOpen().getYear(), getDateToOpen().getMonthValue(), getDateToOpen().getDayOfMonth());
+        }
     }
 }
 
@@ -72,6 +84,14 @@ class SpecialArchive extends Archive {
         return false;
     }
 
+    @Override
+    public String open(LocalDate date) {
+        if (openn()) {
+            return String.format("Item %d opened at %d-%02d-%02d", getId(), date.getYear(), date.getMonthValue(), date.getDayOfMonth());
+        } else {
+            return "Item " + getId() + " cannot be opened more than " + getMaxOpen() + " times";
+        }
+    }
 }
 
 class ArchiveStore {
@@ -93,22 +113,7 @@ class ArchiveStore {
     public void openItem(int archive, LocalDate date) throws NonExistingItemException {
         if (archiveList.stream().anyMatch(t -> t.getId() == archive)) {
             List<Archive> collect = archiveList.stream().filter(t -> t.getId() == archive).collect(Collectors.toList());
-            if (collect.get(0) instanceof LockedArchive) {
-                LockedArchive la = (LockedArchive) collect.get(0);
-                if (date.compareTo(la.getDateToOpen()) >= 0) {
-                    log.add(String.format("Item %d opened at %d-%02d-%02d", la.getId(), date.getYear(), date.getMonthValue(), date.getDayOfMonth()));
-                } else {
-                    log.add(String.format("Item %d cannot be opened before %d-%02d-%02d", la.getId(), la.getDateToOpen().getYear(), la.getDateToOpen().getMonthValue(), la.getDateToOpen().getDayOfMonth()));
-                }
-            } else {
-                SpecialArchive sa = (SpecialArchive) collect.get(0);
-                if (sa.openn()) {
-                    log.add(String.format("Item %d opened at %d-%02d-%02d", sa.getId(), date.getYear(), date.getMonthValue(), date.getDayOfMonth()));
-                } else {
-                    log.add("Item " + sa.getId() + " cannot be opened more than " + sa.getMaxOpen() + " times");
-
-                }
-            }
+            log.add(collect.get(0).open(date));
         } else {
             throw new NonExistingItemException(archive);
         }
