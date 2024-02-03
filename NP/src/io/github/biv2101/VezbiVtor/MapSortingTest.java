@@ -4,21 +4,22 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 
+import java.util.*;
+
 public class MapSortingTest {
 
-    public static <K, V extends Comparable<? super V>> SortedSet<Map.Entry<K, V>> entriesSortedByValues(
-            Map<K, V> map) {
-        SortedSet<Map.Entry<K, V>> sortedEntries = new TreeSet<>(
-                new Comparator<Map.Entry<K, V>>() {
-                    @Override
-                    public int compare(Map.Entry<K, V> e1, Map.Entry<K, V> e2) {
-                        int res = e1.getValue().compareTo(e2.getValue());
-                        return res != 0 ? -res : 1;
-                    }
-                });
-        sortedEntries.addAll(map.entrySet());
+    static <K, V extends Comparable<V>> SortedSet<Map.Entry<K, V>> entriesSortedByValues(Map<K, V> map) {
+        Comparator<Map.Entry<K, V>> comparator = (o1, o2) -> {
+            int result = o2.getValue().compareTo(o1.getValue());
+            if (result == 0) {
+                result = 1;
+            }
+            return result;
+        };
+        SortedSet<Map.Entry<K, V>> resultSet = new TreeSet<>(comparator);
         System.out.println(map);
-        return sortedEntries;
+        resultSet.addAll(map.entrySet());
+        return resultSet;
     }
 
     public static void main(String[] args) {
