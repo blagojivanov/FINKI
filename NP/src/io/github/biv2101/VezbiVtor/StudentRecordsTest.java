@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
 /**
  * January 2016 Exam problem 1
  */
-
+// Slack integrations test
 class StudentRec {
     List<Integer> grades;
     String id;
